@@ -78,7 +78,7 @@ Exemplo:
 console.log("Meu nome é João e tenho " + 23, "anos");
 Você acabou de concatenar uma string e um número.
 
-Outro meio de fazer isso é usando crases ("``") e $
+Outro meio de fazer isso é usando crases: (` `) e $
 
 Exemplo:
 Meu nome é joão e minha idade é: ${23}
