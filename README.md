@@ -77,3 +77,8 @@ Se define em mesclar duas coisas diferentes em um aguardando um (1) resultado co
 Exemplo:
 console.log("Meu nome é João e tenho " + 23, "anos");
 Você acabou de concatenar uma string e um número.
+
+Outro meio de fazer isso é usando ` ` e $
+
+Exemplo:
+console.log(`Meu nome é João e minha idade é ${23}`);
