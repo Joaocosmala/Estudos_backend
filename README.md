@@ -81,4 +81,4 @@ Você acabou de concatenar uma string e um número.
 Outro meio de fazer isso é usando ` ` e $
 
 Exemplo:
-console.log(`Meu nome é João e minha idade é ${23}`);
+"console.log("`Meu nome é João e minha idade é ${23}`");
