@@ -78,7 +78,35 @@ Exemplo:
 console.log("Meu nome é João e tenho " + 23, "anos");
 Você acabou de concatenar uma string e um número.
 
-Outro meio de fazer isso é usando crases: (` `) e $
+Outro meio de fazer isso é usando crases: ("` `") e $
 
 Exemplo:
 Meu nome é joão e minha idade é: ${23}
+
+---------------------------------------
+
+# Variáveis em JavaScript
+Variáveis são maneiras de armazenarmos informações para que possamos usar novamente no futuro
+
+## VAR, LET E CONST
+Em JavaScript temos:
+VAR
+LET
+CONST
+
+## VAR
+VAR -> Maneira antiga de escrever variáveis.
+Perminte que adicionemos um valor nele, e posteriormente, podemos alterar este valor
+
+## LET
+LET -> Podemos adicionar um valor a ele, podendo também alterar este mesmo valor
+
+## CONST
+CONST -> Adicionamos um valor e ele é definido como único, sem poder alterar este valor depois.
+Sendo está uma variável que só deve conter este determinado valor.
+
+Exemplos:
+var nome1 = "João";
+let nome2 = "João";
+const nome3 = "João";
+
