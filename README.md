@@ -9,10 +9,8 @@ Um registro de uma pequena trilha de estudos que estou seguindo estudando backen
 // Console.log("Valor") Exibe Valor no terminal
 //Node.Js - Apertar F-5 para rodar o Debug Console
 
----------------------------------------
-## Operadores Matemáticos
----------------------------------------
-# Somar
+# Operadores Matemáticos
+## Somar
 1 + 1 = 2, 10 + 10 = 20
 Exemplo:
 console.log(1 + 10) = 11
@@ -27,7 +25,7 @@ const soma = numero1 + numero2;
 console.log("O Valor da soma é: ", soma);
 Resultado: O Valor da soma é: 50
 
-# Subtrair
+## Subtrair
 const numero1 = 10;
 const numero2 = 40;
 
@@ -36,7 +34,7 @@ const sub = numero1 - numero2;
 console.log("O Valor da subtração é: ", sub);
 Resultado: O Valor da subtração é: -30
 
-# Dividir
+## Dividir
 const numero1 = 10;
 const numero2 = 40;
 
@@ -45,7 +43,7 @@ const div = numero1 / numero2;
 console.log("O Valor da divisão é: ", div);
 Resultado: O Valor da divisão é: 0.25
 
-# Multiplicação
+## Multiplicação
 const numero1 = 10;
 const numero2 = 40;
 
@@ -56,9 +54,9 @@ Resultado: O Valor da multiplicação é: 400
 
 ---------------------------------------
 
-## Strings e Concatenação
+# Strings e Concatenação
 
-# Strings
+## Strings
 Strings são: letras, números, caractéres diversos e textos
 Identificadas por tipagem string, ou " "
 
@@ -72,7 +70,7 @@ console.log(10); // número
 console.log("10 + 10"); // Retorno: 10 + 10
 console.log(10 + 10); // Retorno: 20
 
-# Concatenação (mesclar)
+## Concatenação (mesclar)
 Concatenação pode ser dita como: mesclar ou juntar
 Se define em mesclar duas coisas diferentes em um aguardando um (1) resultado conjunto destes dois (2).
 
