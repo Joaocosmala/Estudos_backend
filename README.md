@@ -110,3 +110,44 @@ var nome1 = "João";
 let nome2 = "João";
 const nome3 = "João";
 
+---------------------------------------
+
+# Números em JavaScript
+
+Em JavaScript, diferente de outras linguagens, quando se tem um número, mesmo que seja impar, par, possua casa decimal e afins, ele não terá o que é conhecido como Float, Double, Integers e etc... Em JavaScript tudo isso é mais simplificado em um único tipo, tipo Number. Ou seja, qualquer coisa que seja um número, será dado como um número.
+
+Exemplos:
+console.log(21 + 10) = 31;
+console.log(20 + 24.4444) = 44.4444;
+console.log("10" + 10) = 1010 (??????) -> Isso ocorre porque número em aspas se torna uma string, deixando de ser um number.
+
+Exemplos: 
+console.log(10) -> numero
+console.log("10") -> string
+
+Outro fator importante são as casas decimais. Em JavaScript casas decimais são separadas por pontos ( . ), e não por vírgulas ( , ).
+console.log(12, 3 + 13 + 3) -> 12, 16, 3
+
+números também podem ser armazenados em variáveis:
+const idade = 23
+console.log(idade) -> 23
+
+Resumindo, para trabalhar com números, devemos mante-los fora de strings, senão seram tratados como strings.
+
+---------------------------------------
+
+# Valores Booleanos
+
+Valores booleanos são true ou false. 0 ou 1. Verdadeiro ou falso.
+
+Exemplo:
+
+const dormindo = false
+const acordado = true
+
+const comFome = "true" -> Não é booleano, é string, lembre-se das " " !!
+
+---------------------------------------
+
+# Operadores
+
