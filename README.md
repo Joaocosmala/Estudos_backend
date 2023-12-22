@@ -193,43 +193,196 @@ Alguns exemplos de operadores de comparação são:
 
 Exemplos:
 
-Operador de = (igual):
-console.log("20 == 20: ", 20 == 20); // Resultado = true; 20 é igual a 20 então: true;
-console.log("21 == 20: ", 20 == 20); // Resultado = false; 21 não é igual a 20 então: false;
-console.log("21 == 21: ", 21 == 21); // Resultado = true; 21 é igual a 21 então: true;
+# Operador de = (igual):
+console.log("20 == 20: ", 20 == 20);
+// Resultado = true; 20 é igual a 20 então: true;
 
-Operador de != (Diferente):
-console.log("20 != 20: ", 20 != 20); // Resultado = false; 20 não é diferente de 20 então: false;
-console.log("21 != 20: ", 21 != 20); // Resultado = true; 21 é diferente de 20 então: true;
-console.log("21 != 21: ", 21 != 21); // Resultado = false; 21 não é diferente de 21 então: false;
+console.log("21 == 20: ", 20 == 20);
+// Resultado = false; 21 não é igual a 20 então: false;
 
-Operador de === (Estritamente igual):
-console.log("20 === 20: ", 20 === 20); // Resultado = true; 20 é estritamente igual a 20 então: true;
-console.log("21 === 21: ", "21" === 21); // Resultado = false; "21" não é estritamente igual a 21 então: false; Aqui vemos que === identificada "21" diferente de 20 pois 21 está em " " aspas, o deixando em string, logo, "21" não é estritamente igual a 21 porque "21" é uma string e 21 é um número.
-console.log("21 === 21: ", 21 === 21); // Resultado = true; 21 é estritamente igual a 21 então: true;
+console.log("21 == 21: ", 21 == 21);
+// Resultado = true; 21 é igual a 21 então: true;
 
-Operador de !== (Estritamente Diferente):
-console.log("20 !== 20: ", 20 !== 20); // Resultado = false; 20 não é estritamente diferente de 20 então: false;
-console.log("21 !== 20: ", 21 !== 20); // Resultado = true; 21 é estritamente diferente de 20 então: true;
-console.log("21 !== 21: ", 21 !== 21); // Resultado = false; 21 não é estritamente diferente de 21 então: false;
+# Operador de != (Diferente):
+console.log("20 != 20: ", 20 != 20); 
+// Resultado = false; 20 não é diferente de 20 então: false;
 
-Operador de > (Maior que):
-console.log("20 é maior que 20? ", 20 > 20); // Resultado = false; 20 não é maior que 20 então: false;
-console.log("21 é maior que 20? ", 21 > 20); // Resultado = true; 21 é maior que 20 então: true;
-console.log("21 é maior que 21? ", 21 > 21); // Resultado = false; 21 não é maior que 21 então: false;
+console.log("21 != 20: ", 21 != 20);
+// Resultado = true; 21 é diferente de 20 então: true;
 
-Operador de < (Menor que):
-console.log("20 é menor que 20? ", 20 < 20); // Resultado = false; 20 não é menor que 20 então: false;
-console.log("21 é menor que 20? ", 21 < 20); // Resultado = false; 21 não é menor que 20 então: false;
-console.log("21 é menor que 21? ", 21 < 21); // Resultado = false; 21 não é menor que 20 então: false;
-console.log("12 é menor que 20? ", 12 < 20); // Resultado = true; 12 é menor que 20 então: true;
+console.log("21 != 21: ", 21 != 21);
+// Resultado = false; 21 não é diferente de 21 então: false;
 
-Operador de >= (Maior ou igual que):
-console.log("20 é maior ou igual que 20? ", 20 >= 20); // Resultado = true; 20 é maior ou igual a 20 então: true;
-console.log("21 é maior ou igual que 20? ", 21 >= 20); // Resultado = true; 21 é maior ou igual a 20 então: true;
-console.log("12 é maior ou igual que 20? ", 12 >= 20); // Resultado = false; 12 não é maior ou igual a 20 então: false;
+# Operador de === (Estritamente igual):
+console.log("20 === 20: ", 20 === 20);
+// Resultado = true; 20 é estritamente igual a 20 então: true;
 
-Operador de <= (Menor ou igual que):
-console.log("20 é menor ou igual que 20? ", 20 <= 20); // Resultado = true; 20 é menor ou igual a 20 então: true;
-console.log("21 é menor ou igual que 20? ", 21 <= 20); // Resultado = true; 21 não é menor ou igual a 20 então: false;
-console.log("12 é menor ou igual que 20? ", 12 <= 20); // Resultado = false; 12 não é menor ou igual a 20 então: true;
+console.log("21 === 21: ", "21" === 21);
+// Resultado = false; "21" não é estritamente igual a 21 então: false;
+Aqui vemos que === identificada "21" diferente de 20 pois 21 está em " " aspas, o deixando em string, logo, "21" não é estritamente igual a 21 porque "21" é uma string e 21 é um número.
+
+console.log("21 === 21: ", 21 === 21);
+// Resultado = true; 21 é estritamente igual a 21 então: true;
+
+# Operador de !== (Estritamente Diferente):
+console.log("20 !== 20: ", 20 !== 20);
+// Resultado = false; 20 não é estritamente diferente de 20 então: false;
+
+console.log("21 !== 20: ", 21 !== 20);
+// Resultado = true; 21 é estritamente diferente de 20 então: true;
+
+console.log("21 !== 21: ", 21 !== 21);
+// Resultado = false; 21 não é estritamente diferente de 21 então: false;
+
+# Operador de > (Maior que):
+console.log("20 é maior que 20? ", 20 > 20);
+// Resultado = false; 20 não é maior que 20 então: false;
+
+console.log("21 é maior que 20? ", 21 > 20);
+// Resultado = true; 21 é maior que 20 então: true;
+
+console.log("21 é maior que 21? ", 21 > 21);
+// Resultado = false; 21 não é maior que 21 então: false;
+
+# Operador de < (Menor que):
+console.log("20 é menor que 20? ", 20 < 20);
+// Resultado = false; 20 não é menor que 20 então: false;
+
+console.log("21 é menor que 20? ", 21 < 20);
+// Resultado = false; 21 não é menor que 20 então: false;
+
+console.log("21 é menor que 21? ", 21 < 21);
+// Resultado = false; 21 não é menor que 20 então: false;
+
+console.log("12 é menor que 20? ", 12 < 20);
+// Resultado = true; 12 é menor que 20 então: true;
+
+# Operador de >= (Maior ou igual que):
+console.log("20 é maior ou igual que 20? ", 20 >= 20);
+// Resultado = true; 20 é maior ou igual a 20 então: true;
+
+console.log("21 é maior ou igual que 20? ", 21 >= 20);
+// Resultado = true; 21 é maior ou igual a 20 então: true;
+
+console.log("12 é maior ou igual que 20? ", 12 >= 20);
+// Resultado = false; 12 não é maior ou igual a 20 então: false;
+
+# Operador de <= (Menor ou igual que):
+console.log("20 é menor ou igual que 20? ", 20 <= 20);
+// Resultado = true; 20 é menor ou igual a 20 então: true;
+
+console.log("21 é menor ou igual que 20? ", 21 <= 20);
+// Resultado = true; 21 não é menor ou igual a 20 então: false;
+
+console.log("12 é menor ou igual que 20? ", 12 <= 20);
+// Resultado = false; 12 não é menor ou igual a 20 então: true;
+
+---------------------------------------
+
+## Operadores Lógicos;
+Operadores lógicos são operadores que assim como os anteriores, também determinam uma função. Assim como em Lógica Aplicada, opedadores lógicos são usados para determinar: E, OU, OUOU, NEGAÇÃO e etc...
+
+Aqui temos como principais:
+• -> && -> E -> and lógico
+• -> || -> OU -> or lógico
+• -> ! -> NEGAÇÃO -> negação lógica
+
+# &&
+• Para que retorne um verdadeiro (true), as duas condições precisam ser verdadeiras
+Exemplo:
+• true && true = true;
+• false && false = true;
+• true && false = false;
+• false && true = false;
+
+TRUE
+const nome = "joao";
+const idade = 23;
+console.log(nome === "joao" && idade === 23);
+// Resultado: true; nome é === estritamente igual a "joao" && (E) idade também é estritamente igual a 23;
+
+FALSE
+const nome = "joao";
+const idade = 23;
+console.log(nome === "joao" && idade === 20);
+// Resultado: false; nome é === estritamente igual a "joao" && (E) idade não é estritamente igual a 23;
+
+TRUE
+console.log("23 >= 23 && 70 >= 70: ", 23 >= 23 && 70 >= 70);
+// Resultado: true; Porque 23 é maior ou igual a 23 e 70 é maior ou igual a 70
+
+---------------------------------------
+
+# ||
+• Para que retorne um verdadeiro (true), uma das condições deve ser verdadeira
+Exemplo:
+• true || true = true;
+• false || false = false;
+• true || false = true;
+• false || true = true;
+
+console.log("Resultado é: ", true || true); // Resultado: true;
+console.log("Resultado é: ", false || false); // Resultado: false;
+console.log("Resultado é: ", true || false); // Resultado: true;
+console.log("Resultado é: ", false || true); // Resultado: true;
+
+Mais exemplos:
+(Aqui resolvi dar um exemplo mais avançado pois ele se adequa melhor a questão de como costuma ser mais utilizado esse contexto das Pipes)
+Observação:
+Levando em consideração o mercado de trabalho, muitas vezez precisamos determinar e comparar valores para as nossas funções através de 0 e 1
+
+
+• Situação 1: Resultado true
+
+//Aqui temos um objeto com o nome de sexualidade que nos trás dois valores BOOLEANOS, verdadeiro para masculino e falso para feminino
+const sexualidade = {
+    masculino: true,
+    feminino: false,
+};
+
+//Denominei duas variáveis, uma com o nome de joao, e outra com o nome de manu.
+//joao é masculino, logo, é verdadeiro
+//manu é feminino, logo, é falso
+const joao = sexualidade.masculino; // true
+const manu = sexualidade.feminino; // false
+
+// E para nos mostrar o resultado no terminal temos mais um console.log com o Operador Lógico de || para identificar valores 0 e 1 / verdadeiro e falso.
+console.log(joao || manu); // Resultado: true; Porque João é verdadeiro;
+
+
+• Situação 2: Resultado true
+
+const sexualidade = {
+    masculino: true,
+    feminino: false,
+};
+
+const joao = sexualidade.feminino; // false
+const manu = sexualidade.masculino; // true
+
+console.log(joao || manu); // Resultado: true; Porque Manu é verdadeiro;
+
+
+• Situação 3: Resultado false
+
+const sexualidade = {
+    masculino: true,
+    feminino: false,
+};
+
+const joao = sexualidade.feminino; // false
+const manu = sexualidade.feminino; // false
+
+console.log(joao || manu); // Resultado: false; Porque João e Manu são falsos;
+
+• Situação 4: Resultado true
+
+const sexualidade = {
+    masculino: true,
+    feminino: false,
+};
+
+const joao = sexualidade.feminino; // true
+const manu = sexualidade.masculino; // true
+
+console.log(joao || manu); // Resultado: true; Porque Joao e Manu são verdadeiros;
