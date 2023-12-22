@@ -193,7 +193,7 @@ Alguns exemplos de operadores de comparação são:
 
 Exemplos:
 
-# Operador de = (igual):
+## Operador de = (igual):
 console.log("20 == 20: ", 20 == 20);
 // Resultado = true; 20 é igual a 20 então: true;
 
@@ -203,7 +203,7 @@ console.log("21 == 20: ", 20 == 20);
 console.log("21 == 21: ", 21 == 21);
 // Resultado = true; 21 é igual a 21 então: true;
 
-# Operador de != (Diferente):
+## Operador de != (Diferente):
 console.log("20 != 20: ", 20 != 20); 
 // Resultado = false; 20 não é diferente de 20 então: false;
 
@@ -213,7 +213,7 @@ console.log("21 != 20: ", 21 != 20);
 console.log("21 != 21: ", 21 != 21);
 // Resultado = false; 21 não é diferente de 21 então: false;
 
-# Operador de === (Estritamente igual):
+## Operador de === (Estritamente igual):
 console.log("20 === 20: ", 20 === 20);
 // Resultado = true; 20 é estritamente igual a 20 então: true;
 
@@ -224,7 +224,7 @@ Aqui vemos que === identificada "21" diferente de 20 pois 21 está em " " aspas,
 console.log("21 === 21: ", 21 === 21);
 // Resultado = true; 21 é estritamente igual a 21 então: true;
 
-# Operador de !== (Estritamente Diferente):
+## Operador de !== (Estritamente Diferente):
 console.log("20 !== 20: ", 20 !== 20);
 // Resultado = false; 20 não é estritamente diferente de 20 então: false;
 
@@ -234,7 +234,7 @@ console.log("21 !== 20: ", 21 !== 20);
 console.log("21 !== 21: ", 21 !== 21);
 // Resultado = false; 21 não é estritamente diferente de 21 então: false;
 
-# Operador de > (Maior que):
+## Operador de > (Maior que):
 console.log("20 é maior que 20? ", 20 > 20);
 // Resultado = false; 20 não é maior que 20 então: false;
 
@@ -244,7 +244,7 @@ console.log("21 é maior que 20? ", 21 > 20);
 console.log("21 é maior que 21? ", 21 > 21);
 // Resultado = false; 21 não é maior que 21 então: false;
 
-# Operador de < (Menor que):
+## Operador de < (Menor que):
 console.log("20 é menor que 20? ", 20 < 20);
 // Resultado = false; 20 não é menor que 20 então: false;
 
@@ -257,7 +257,7 @@ console.log("21 é menor que 21? ", 21 < 21);
 console.log("12 é menor que 20? ", 12 < 20);
 // Resultado = true; 12 é menor que 20 então: true;
 
-# Operador de >= (Maior ou igual que):
+## Operador de >= (Maior ou igual que):
 console.log("20 é maior ou igual que 20? ", 20 >= 20);
 // Resultado = true; 20 é maior ou igual a 20 então: true;
 
@@ -267,7 +267,7 @@ console.log("21 é maior ou igual que 20? ", 21 >= 20);
 console.log("12 é maior ou igual que 20? ", 12 >= 20);
 // Resultado = false; 12 não é maior ou igual a 20 então: false;
 
-# Operador de <= (Menor ou igual que):
+## Operador de <= (Menor ou igual que):
 console.log("20 é menor ou igual que 20? ", 20 <= 20);
 // Resultado = true; 20 é menor ou igual a 20 então: true;
 
@@ -279,7 +279,7 @@ console.log("12 é menor ou igual que 20? ", 12 <= 20);
 
 ---------------------------------------
 
-## Operadores Lógicos;
+# Operadores Lógicos;
 Operadores lógicos são operadores que assim como os anteriores, também determinam uma função. Assim como em Lógica Aplicada, opedadores lógicos são usados para determinar: E, OU, OUOU, NEGAÇÃO e etc...
 
 Aqui temos como principais:
@@ -287,7 +287,7 @@ Aqui temos como principais:
 • -> || -> OU -> or lógico
 • -> ! -> NEGAÇÃO -> negação lógica
 
-# &&
+## &&
 • Para que retorne um verdadeiro (true), as duas condições precisam ser verdadeiras
 Exemplo:
 • true && true = true;
@@ -313,7 +313,7 @@ console.log("23 >= 23 && 70 >= 70: ", 23 >= 23 && 70 >= 70);
 
 ---------------------------------------
 
-# ||
+## ||
 • Para que retorne um verdadeiro (true), uma das condições deve ser verdadeira
 Exemplo:
 • true || true = true;
