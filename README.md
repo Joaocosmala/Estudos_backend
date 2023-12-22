@@ -313,18 +313,21 @@ console.log("23 >= 23 && 70 >= 70: ", 23 >= 23 && 70 >= 70);
 
 ---------------------------------------
 
-## ||
-• Para que retorne um verdadeiro (true), uma das condições deve ser verdadeira
-Exemplo:
+## || e |
+• || -> Para que retorne um verdadeiro (true), uma das condições deve ser verdadeira
+Exemplo para ||:
 • true || true = true;
 • false || false = false;
 • true || false = true;
 • false || true = true;
 
-console.log("Resultado é: ", true || true); // Resultado: true;
-console.log("Resultado é: ", false || false); // Resultado: false;
-console.log("Resultado é: ", true || false); // Resultado: true;
-console.log("Resultado é: ", false || true); // Resultado: true;
+const joao = true;
+const manu = false;
+
+console.log(joao || manu); // Resultado: true;
+console.log(manu || joao); // Resultado: true;
+console.log(joao || joao); // Resultado: true;
+console.log(manu || manu); // Resultado: false;
 
 Mais exemplos:
 (Aqui resolvi dar um exemplo mais avançado pois ele se adequa melhor a questão de como costuma ser mais utilizado esse contexto das Pipes)
@@ -349,26 +352,14 @@ const manu = sexualidade.feminino; // false
 // E para nos mostrar o resultado no terminal temos mais um console.log com o Operador Lógico de || para identificar valores 0 e 1 / verdadeiro e falso.
 console.log(joao || manu); // Resultado: true; Porque João é verdadeiro;
 
-
 • Situação 2: Resultado true
-
-const sexualidade = {
-    masculino: true,
-    feminino: false,
-};
 
 const joao = sexualidade.feminino; // false
 const manu = sexualidade.masculino; // true
 
 console.log(joao || manu); // Resultado: true; Porque Manu é verdadeiro;
 
-
 • Situação 3: Resultado false
-
-const sexualidade = {
-    masculino: true,
-    feminino: false,
-};
 
 const joao = sexualidade.feminino; // false
 const manu = sexualidade.feminino; // false
@@ -377,12 +368,51 @@ console.log(joao || manu); // Resultado: false; Porque João e Manu são falsos;
 
 • Situação 4: Resultado true
 
-const sexualidade = {
-    masculino: true,
-    feminino: false,
-};
-
 const joao = sexualidade.feminino; // true
 const manu = sexualidade.masculino; // true
 
 console.log(joao || manu); // Resultado: true; Porque Joao e Manu são verdadeiros;
+
+---------------------------------------
+
+Agora iremos mudar um pouco sobre oq aprendemos de true ou false em || e considerar manipular bits com | (bitwise)
+O operador | é usado como um manipulador de bits. Se tratarmos variáveis booleanas (true or false) com |, ele irá nos retornar 1 ou 0;
+Porém, também pode ser usado para realizar operações lógicas. No entanto, ao contrário do ||, o | opera nos bits individuais dos números.
+Normalmente é usado em situações onde a manipulação de bits é necessária.
+
+Exemplo:
+let x = 5; // Em binário: 0101;
+let y = 3; // Em binário: 0011;
+let result = x | y; // Resultado: 7 (binário: 0111);
+
+OU
+
+Se tivermos valores booleanos novamente, receberemos 0 ou 1 como resposta ao invés de true ou false.
+
+const joao = true;
+const manu = false;
+
+console.log(joao | manu); // Resultado: 1 = true;
+console.log(manu | joao); // Resultado: 1 = true;
+console.log(joao | joao); // Resultado: 1 = true;
+console.log(manu | manu); // Resultado: 0 = false;
+
+// Observação, fora as condicionais de bit, em booleano, | também irá retornar o mesmo que ||, sendo necessário pelo menos um dos valores ser verdadeiro.
+
+---------------------------------------
+
+# ! e !!
+O operador de negação, na minha opinião, é mais simples de ser usado.
+Ele irá transformar o que é true, em false, e o que é false, em true.
+Também podendo com: !! (dupla negação) transformar algo que é true, em true, ou algo que é false, em false
+
+Exemplos:
+const joao = true
+const manu = false
+
+console.log(joao) // Resultado: true;
+console.log(!joao) // Resultado: false;
+console.log(!!joao) // Resultado: true;
+console.log(manu) // Resultado: false;
+console.log(!manu) // Resultado: true;
+console.log(!!manu) // Resultado: false;
