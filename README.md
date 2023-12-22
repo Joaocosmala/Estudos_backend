@@ -375,6 +375,7 @@ console.log(joao || manu); // Resultado: true; Porque Joao e Manu são verdadeir
 
 ---------------------------------------
 
+# | (BitWise)
 Agora iremos mudar um pouco sobre oq aprendemos de true ou false em || e considerar manipular bits com | (bitwise)
 O operador | é usado como um manipulador de bits. Se tratarmos variáveis booleanas (true or false) com |, ele irá nos retornar 1 ou 0;
 Porém, também pode ser usado para realizar operações lógicas. No entanto, ao contrário do ||, o | opera nos bits individuais dos números.
@@ -416,3 +417,10 @@ console.log(!!joao) // Resultado: true;
 console.log(manu) // Resultado: false;
 console.log(!manu) // Resultado: true;
 console.log(!!manu) // Resultado: false;
+
+---------------------------------------
+
+# Convenções e Padrões
+(Padrões de nomenclatura, convenções e o que são variáveis)
+
+### • Variáveis (O que são ?)
