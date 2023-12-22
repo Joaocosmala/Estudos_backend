@@ -424,3 +424,7 @@ console.log(!!manu) // Resultado: false;
 (Padrões de nomenclatura, convenções e o que são variáveis)
 
 #### • Variáveis (O que são ?)
+Variáveis são como contêineres ou espaços de armazenamento na programação, usados para guardar e manipular dados. Elas são como "caixas" nomeadas onde você pode guardar diferentes tipos de informações, como números, texto, listas, objetos, entre outros. Imagine uma caixa onde você coloca algo dentro e pode alterar ou trocar seu conteúdo sempre que necessário. As variáveis funcionam de maneira similar na programação. Ao usar variáveis, você dá um nome a um pedaço de memória do computador para referenciar e manipular esses dados. Por exemplo, você pode ter uma variável chamada idade para armazenar a idade de uma pessoa.
+
+Exemplo:
+const idade = 23 (Assim como já estávamos fazendo anteriormente);
