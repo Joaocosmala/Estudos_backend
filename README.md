@@ -1,16 +1,9 @@
-# Estudos_backend
-Um registro de uma pequena trilha de estudos que estou seguindo estudando backend, com a intenção de aprimorar minhas habilidades em outras tecnologias.
+# • JavaScript Completo, ou quase...
 
-# JavaScript Completo
+---------------------------------------
 
-## Gerais
-// Comentários na mesma linha
-
-// Console.log("Valor") Exibe Valor no terminal
-//Node.Js - Apertar F-5 para rodar o Debug Console
-
-# Operadores Matemáticos
-## Somar
+# • Operadores Matemáticos
+### Somar
 1 + 1 = 2, 10 + 10 = 20
 Exemplo:
 console.log(1 + 10) = 11
@@ -25,7 +18,7 @@ const soma = numero1 + numero2;
 console.log("O Valor da soma é: ", soma);
 Resultado: O Valor da soma é: 50
 
-## Subtrair
+### Subtrair
 const numero1 = 10;
 const numero2 = 40;
 
@@ -34,7 +27,7 @@ const sub = numero1 - numero2;
 console.log("O Valor da subtração é: ", sub);
 Resultado: O Valor da subtração é: -30
 
-## Dividir
+### Dividir
 const numero1 = 10;
 const numero2 = 40;
 
@@ -43,7 +36,7 @@ const div = numero1 / numero2;
 console.log("O Valor da divisão é: ", div);
 Resultado: O Valor da divisão é: 0.25
 
-## Multiplicação
+### Multiplicação
 const numero1 = 10;
 const numero2 = 40;
 
@@ -54,9 +47,9 @@ Resultado: O Valor da multiplicação é: 400
 
 ---------------------------------------
 
-# Strings e Concatenação
+# • Strings e Concatenação
 
-## Strings
+### Strings
 Strings são: letras, números, caractéres diversos e textos
 Identificadas por tipagem string, ou " "
 
@@ -85,23 +78,23 @@ Meu nome é joão e minha idade é: ${23}
 
 ---------------------------------------
 
-# Variáveis em JavaScript
+# • Variáveis em JavaScript
 Variáveis são maneiras de armazenarmos informações para que possamos usar novamente no futuro
 
-## VAR, LET E CONST
+### VAR, LET E CONST
 Em JavaScript temos:
 VAR
 LET
 CONST
 
-## VAR
+### VAR
 VAR -> Maneira antiga de escrever variáveis.
 Perminte que adicionemos um valor nele, e posteriormente, podemos alterar este valor
 
-## LET
+### LET
 LET -> Podemos adicionar um valor a ele, podendo também alterar este mesmo valor
 
-## CONST
+### CONST
 CONST -> Adicionamos um valor e ele é definido como único, sem poder alterar este valor depois.
 Sendo está uma variável que só deve conter este determinado valor.
 
@@ -112,7 +105,7 @@ const nome3 = "João";
 
 ---------------------------------------
 
-# Números em JavaScript
+# • Números em JavaScript
 
 Em JavaScript, diferente de outras linguagens, quando se tem um número, mesmo que seja impar, par, possua casa decimal e afins, ele não terá o que é conhecido como Float, Double, Integers e etc... Em JavaScript tudo isso é mais simplificado em um único tipo, tipo Number. Ou seja, qualquer coisa que seja um número, será dado como um número.
 
@@ -136,7 +129,7 @@ Resumindo, para trabalhar com números, devemos mante-los fora de strings, senã
 
 ---------------------------------------
 
-# Valores Booleanos
+# • Valores Booleanos
 
 Valores booleanos são true ou false. 0 ou 1. Verdadeiro ou falso.
 
@@ -149,7 +142,7 @@ const comFome = "true" -> Não é booleano, é string, lembre-se das " " !!
 
 ---------------------------------------
 
-# Operadores
+# • Operadores
 
 Operadores são conhecidos como: "Operadores Lógicos", do qual são designados por símbolos que definem alguma função, algum ato, algum dever no seu código através da sua lógica.
 
@@ -279,7 +272,7 @@ console.log("12 é menor ou igual que 20? ", 12 <= 20);
 
 ---------------------------------------
 
-# Operadores Lógicos;
+# • Operadores Lógicos;
 Operadores lógicos são operadores que assim como os anteriores, também determinam uma função. Assim como em Lógica Aplicada, opedadores lógicos são usados para determinar: E, OU, OUOU, NEGAÇÃO e etc...
 
 Aqui temos como principais:
@@ -375,7 +368,7 @@ console.log(joao || manu); // Resultado: true; Porque Joao e Manu são verdadeir
 
 ---------------------------------------
 
-# | (BitWise)
+## • | (BitWise)
 Agora iremos mudar um pouco sobre oq aprendemos de true ou false em || e considerar manipular bits com | (bitwise)
 O operador | é usado como um manipulador de bits. Se tratarmos variáveis booleanas (true or false) com |, ele irá nos retornar 1 ou 0;
 Porém, também pode ser usado para realizar operações lógicas. No entanto, ao contrário do ||, o | opera nos bits individuais dos números.
@@ -402,7 +395,7 @@ console.log(manu | manu); // Resultado: 0 = false;
 
 ---------------------------------------
 
-# ! e !!
+## • ! e !!
 O operador de negação, na minha opinião, é mais simples de ser usado.
 Ele irá transformar o que é true, em false, e o que é false, em true.
 Também podendo com: !! (dupla negação) transformar algo que é true, em true, ou algo que é false, em false
@@ -420,11 +413,15 @@ console.log(!!manu) // Resultado: false;
 
 ---------------------------------------
 
-# Convenções e Padrões
+# • Convenções e Padrões
 (Padrões de nomenclatura, convenções e o que são variáveis)
 
-#### • Variáveis (O que são ?)
+#### Variáveis (O que são ?)
 Variáveis são como contêineres ou espaços de armazenamento na programação, usados para guardar e manipular dados. Elas são como "caixas" nomeadas onde você pode guardar diferentes tipos de informações, como números, texto, listas, objetos, entre outros. Imagine uma caixa onde você coloca algo dentro e pode alterar ou trocar seu conteúdo sempre que necessário. As variáveis funcionam de maneira similar na programação. Ao usar variáveis, você dá um nome a um pedaço de memória do computador para referenciar e manipular esses dados. Por exemplo, você pode ter uma variável chamada idade para armazenar a idade de uma pessoa.
 
 Exemplo:
-const idade = 23 (Assim como já estávamos fazendo anteriormente);
+
+const nome = joao 
+const idade = 23
+
+(Assim como já estávamos fazendo anteriormente);
