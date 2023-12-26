@@ -473,44 +473,45 @@ console.log(exemploNull); // Resultado: null
 ---------------------------------------
 
 ### O que é um NaN? (not-a-number)
-O NaN é uma abreviação de "Not-a-Number", que em português significa "Não é um número".
-Em JavaScript, NaN é um valor especial que representa um resultado de operação matemática inválida ou indefinida. Da qual por alguma questão lógica não pôde ser executada como deveria.
+O NaN é uma abreviação de "Not-a-Number", que em português significa "Não é um número". <br>
+Em JavaScript, NaN é um valor especial que representa um resultado de operação matemática inválida ou indefinida. Da qual por alguma questão lógica não pôde ser executada como deveria. <br>
 
-Esse valor é retornado quando ocorrem operações aritméticas que não conseguem gerar um número válido.
-Por exemplo, dividir zero por zero ou realizar operações matemáticas com valores que não são números resultará em NaN.
+Esse valor é retornado quando ocorrem operações aritméticas que não conseguem gerar um número válido. <br>
+Por exemplo, dividir zero por zero ou realizar operações matemáticas com valores que não são números resultará em NaN. <br>
 
-Exemplo:
-O NaN é uma abreviação de "Not-a-Number", que em português significa "Não é um número".
-Em JavaScript, NaN é um valor especial que representa um resultado de operação matemática inválida ou indefinida. Da qual por alguma questão lógica não pôde ser executada como deveria.
+Exemplo: <br>
+O NaN é uma abreviação de "Not-a-Number", que em português significa "Não é um número". <br>
+Em JavaScript, NaN é um valor especial que representa um resultado de operação matemática inválida ou indefinida. Da qual por alguma questão lógica não pôde ser executada como deveria. <br>
 
-Esse valor é retornado quando ocorrem operações aritméticas que não conseguem gerar um número válido.
-Por exemplo, dividir zero por zero ou realizar operações matemáticas com valores que não são números resultará em NaN.
+Esse valor é retornado quando ocorrem operações aritméticas que não conseguem gerar um número válido. <br>
+Por exemplo, dividir zero por zero ou realizar operações matemáticas com valores que não são números resultará em NaN. <br>
 
-console.log("joao" * 5); // Resultado: NaN
-Isso ocorre porque "joao" é uma string somente, aonde não tem um valor atribuido, ou seja, "joao" não é um number
+console.log("joao" * 5); // Resultado: NaN <br>
+Isso ocorre porque "joao" é uma string somente, aonde não tem um valor atribuido, ou seja, "joao" não é um number <br>
+<br>
+porém caso atribuirmos um valor a joao dentro de uma variável, isso fica possível <br>
+<br>
+Exemplo funcional: <br>
+<br>
+const joao = 10; <br>
+console.log(joao * 5); // Resultado: 50 <br>
 
-porém caso atribuirmos um valor a joao dentro de uma variável, isso fica possível
-Exemplo funcional:
+PARTICULARIDADE DO JAVASCRIPT <br>
+JavaScript permite para nós termos um número entre aspas, ou seja, strings, e ainda assim conseguir identificar este como número para concluirmos a operação. <br>
+Exemplo de particulatidade: <br>
 
-const joao = 10;
-console.log(joao * 5); // Resultado: 50
+console.log("10" / 2); // Resultado: 5 <br>
+console.log("20" / 2); // Resultado: 10 <br>
 
-PARTICULARIDADE DO JAVASCRIPT
-JavaScript permite para nós termos um número entre aspas, ou seja, strings, e ainda assim conseguir identificar este como número para concluirmos a operação.
-Exemplo de particulatidade:
+Porém, caso coloquemos uma letra dentro das aspas, mesmo que ainda haja um número, não irá funcionar e retornará: NaN <br>
+Exemplo: <br>
+console.log("20w" * 5); <br>
 
-console.log("10" / 2); // Resultado: 5
-console.log("20" / 2); // Resultado: 10
+Outro ponto importante: Caso utilizarmos um número em strings " " e um número para fazer alguma operação, se fizermos uma soma utilizando + o JavaScript não irá consider <br>
+a soma, e sim apenas adicionar o número em strings em frente ao número real <br>
+Exemplo: <br>
 
-Porém, caso coloquemos uma letra dentro das aspas, mesmo que ainda haja um número, não irá funcionar e retornará: NaN
-Exemplo:
-console.log("20w" * 5);
-
-Outro ponto importante: Caso utilizarmos um número em strings " " e um número para fazer alguma operação, se fizermos uma soma utilizando + o JavaScript não irá consider
-a soma, e sim apenas adicionar o número em strings em frente ao número real
-Exemplo:
-
-console.log("20" + 5); // Resultado: 205
+console.log("20" + 5); // Resultado: 205 <br>
 
 ---------------------------------------
 
@@ -519,84 +520,79 @@ console.log("20" + 5); // Resultado: 205
 ### Blocos de código
 Para entendermos as estruturas condicionais, primeiro precisamos entender o que são os blocos de código.
 Blocos de códigos são definidos por todo ou qualquer código que esteja dentro de chaves { }
-Exemplo:
-{
-// isso é um bloco de código
-// tudo que estiver dentro de abertura e fechamento de chaves
-// é bem simples
-}
+<br>
+Exemplo: <br>
+{ <br>
+isso é um bloco de código <br>
+tudo que estiver dentro de abertura e fechamento de chaves <br>
+é bem simples <br>
+} <br>
 
 ---------------------------------------
 
 ### IF, ELSE, ELSE IF
 Literal para o português: (se, senão, senão se)
 Estruturas de controle são definidas por condições, a partir de medidas ou caminhos que precisamos tomar enquanto estamos codificando.
+
 Exemplo:
 Preciso que meu código faça x coisa, porém, caso aconteça y coisa, quero que ocorra z coisa. Se não, quero que retorne x coisa. Endenteu? São condições que precisamos atribuir com ações.
 Essas condições também são baseadas como true ou false, por exemplo, quando determinada ação for true, faça x, quando for false, faça y.
 O caminho para isso seria algo semelhante a isso aqui: Start -> Condição (true ou false) if true -> ação1 -> end, (if false) -> ação2 -> end.
-![image](https://github.com/Joaocosmala/Estudos_backend/assets/78692465/ae8562ef-a625-4b53-bf82-eeab3e0091e6)
+![image](https://github.com/Joaocosmala/Estudos_backend/assets/78692465/ae8562ef-a625-4b53-bf82-eeab3e0091e6) <br>
 
-Exemplo:
-let resultado;
-const numero = 10;
+Exemplo: <br>
+let resultado; <br>
+const numero = 10; <br>
 
-if (numero >= 0 && numero < 9) {
-resultado = "Número maior ou igual a 0 e menor que 9";
-} else if (numero >= 10 && numero < 33) {
-resultado = "Número maior ou igual a 10 e menor do que 33";
-} else {
-resultado = "Número maior do que 32";
-};
+if (numero >= 0 && numero < 9) { <br>
+resultado = "Número maior ou igual a 0 e menor que 9"; <br>
+} else if (numero >= 10 && numero < 33) { <br>
+resultado = "Número maior ou igual a 10 e menor do que 33"; <br>
+} else { <br>
+resultado = "Número maior do que 32"; <br>
+}; <br>
 
 console.log(resultado);
 
 ---------------------------------------
 
 ### Variáveis -> ESCOPOS
-Este aqui é o que já aprendemos sobre variáveis anteriormente
--> Variáveis
-Variáveis são maneiras de armazenarmos informações para que possamos usar novamente no futuro
+Este aqui é o que já aprendemos sobre variáveis anteriormente <br>
+-> Variáveis <br>
+Variáveis são maneiras de armazenarmos informações para que possamos usar novamente no futuro <br>
 
+var nome1 = "João"; <br>
+let nome2 = "Manu"; <br>
+const nome3 = "Shake" <br>
+
+Porém, devemos entender agora o que é um escopo global, local ou em bloco/block.
+<br>
+Vamos pegar de referência os seguintes códigos: <br>
+Código 1:
 <br>
 
-var nome1 = "João";
-let nome2 = "Manu";
-const nome3 = "Shake"
-
-<br>
-
-// Porém, devemos entender agora o que é um escopo global, local ou em bloco/block.
-
-// Vamos pegar de referência os seguintes códigos: <br>
-// Código 1:
-<br>
 const media = 10; <br>
 if (media > 9) { <br>
     var resultado = "TESTE OK"; <br>
 } <br>
 console.log(resultado); // Resultado: TESTE OK. (está correto!) -> var;
-
 <br>
-<br>
+Porém, se: <br>
+Código 2: <br>
 
-/*
-// Porém, se: <br>
-// Código 2:
 const mediaDois = 10;
 if (mediaDois > 9) {
     let resultadoUm = "TESTE OK";
 } <br>
 console.log(resultadoUm); // Resultado: Retornará erro, resultadoUm is not defined -> let;
-// Isso acontece porque resultadoUm está dentro do bloco de código. A variável existe, mas seu valor nunca foi utilizado.
-
-<br>
 <br>
 
-// E isso também acontece quando usamos const <br>
-// Código 3:
-
+Isso acontece porque resultadoUm está dentro do bloco de código. A variável existe, mas seu valor nunca foi utilizado.
 <br>
+
+E isso também acontece quando usamos const <br>
+Código 3: <br>
+
 const mediaTres = 10; <br>
 if (mediaTres > 9) { <br>
     const resultadoDois = "TESTE OK"; <br>
