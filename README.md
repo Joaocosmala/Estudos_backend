@@ -4,7 +4,9 @@
 
 # • Operadores Matemáticos
 ### Somar
-1 + 1 = 2, 10 + 10 = 20 <br>
+1 + 1 = 2 <br>
+10 + 10 = 20 <br>
+
 Exemplo: <br>
 console.log(1 + 10) = 11 <br>
 Ou, console.log("O valor da soma é: ", 20 + 20) = 40 <br>
