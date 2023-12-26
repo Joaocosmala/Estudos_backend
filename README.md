@@ -526,6 +526,8 @@ Exemplo:
 // é bem simples
 }
 
+---------------------------------------
+
 ### IF, ELSE, ELSE IF
 Literal para o português: (se, senão, senão se)
 Estruturas de controle são definidas por condições, a partir de medidas ou caminhos que precisamos tomar enquanto estamos codificando.
@@ -549,6 +551,7 @@ resultado = "Número maior do que 32";
 
 console.log(resultado);
 
+---------------------------------------
 
 ### Variáveis -> ESCOPOS
 Este aqui é o que já aprendemos sobre variáveis anteriormente
@@ -618,7 +621,80 @@ Variáveis locais existem apenas dentro do contexto em que são definidas, e nã
 3: O escopo de bloco foi introduzido com a introdução do let e const.
 Variáveis declaradas com let e const têm escopo de bloco, o que significa que elas são visíveis apenas dentro do bloco de código em que são definidas.
 
+---------------------------------------
 
 ### Truthy e Falsy
+Em JavaScript, os conceitos de "truthy" e "falsy" se referem à forma como os valores são avaliados em contextos booleanos, como em estruturas condicionais (if, while, &&, ||, entre outros).
+
+JavaScript reconhece todos os valores como verdadeiros em uma estrutura de condição, menos:
+• False
+• 0
+• -0
+• 0m
+• "" ou " ou ``
+• null
+• undefined
+• NaN
+
+Truthy: São valores que são considerados como verdadeiros quando avaliados em um contexto booleano.
+Isso não significa que sejam estritamente iguais a true, mas são interpretados como verdadeiros.
+Alguns exemplos de valores truthy são: true, números diferentes de zero (1, 2.5, -1), strings não vazias ("hello"), arrays e objetos não vazios, e até mesmo certos objetos vazios que são considerados truthy.
+
+#### • Exemplos de valores truthy:
+if ("hello") {
+    // Este bloco será executado, pois a string "hello" é truthy
+}
+
+Falsy: São estes valores que são considerados como falsos em um contexto booleano.
+Assim como com "truthy", isso não significa que sejam estritamente iguais a false, mas são interpretados como falsos.
+Alguns exemplos de valores falsy são: false, 0, null, undefined, NaN, strings vazias (""), null e undefined.
+
+#### • Exemplos de valores Falsy:
+if (0) {
+    // Este bloco NÃO será executado, pois o valor 0 é falsy
+}
+
+É importantíssimo entender estes conceitos quando trabalhar com condicionais em JavaScript, pois às vezes valores inesperados podem ser avaliados como verdadeiros ou falsos.
+O que pode afetar a lógica do programa. O conhecimento sobre valores truthy e falsy é útil para escrever código mais conciso e compreensível.
 
 
+Outros exemplos:
+
+if (true) {
+    console.log("true é truthy");
+}; // Resultado: true é truthy
+
+
+if ("testando qualquer coisa") {
+    console.log("testando qualquer coisa é truthy");
+}; // Resultado: testando qualquer coisa é truthy
+
+
+if ("") {
+    console.log("Aspas duplas vazias é truthy"); 
+} else {
+    console.log("Aspas duplas vazias é falsy");
+} // Resultado: Aspas duplas vazias é falsy
+
+
+if (0) {
+    console.log("0 é truthy");
+} else {
+    console.log("0 é falsy");
+} // Resultado: 0 é falsy
+
+
+if (-0) {
+    console.log("0 é truthy");
+} else {
+    console.log("0 é falsy");
+} // Resultado: -0 é falsy
+
+// ----------------------------------------------------------------------------------------------------------------------------------------
+
+let alistamento;
+if (alistamento) {
+    console.log("Este rapaz se alistou no exército");
+} else {
+    console.log("Este rapaz ainda não se alistou no exército");
+} // Resultado: Falsy, porque let alistamento é undefined;
