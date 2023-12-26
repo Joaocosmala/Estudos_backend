@@ -699,12 +699,9 @@ if (-0) {
 // ----------------------------------------------------------------------------------------------------------------------------------------
 
 let alistamento;
-if (alistamento) {
 
+if (alistamento) { <br>
     console.log("Este rapaz se alistou no exército");
-    
-} else {
-
+} else { <br>
     console.log("Este rapaz ainda não se alistou no exército");
-    
 } // Resultado: Falsy, porque let alistamento é undefined;
