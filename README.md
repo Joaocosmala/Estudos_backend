@@ -786,11 +786,11 @@ A prática no uso de operadores ternários impacta positivamente a questão do c
 
 ---------------------------------------
 
-# • Switch Case:
+# • Switch Case (Diferenças entre if e swtich):
 
-if <br>
+### Estrutura com if <br>
 ![image](https://github.com/Joaocosmala/Estudos_backend/assets/78692465/d66670bc-7eb5-4cfe-b80e-d0fe33c615d5)
 
-Switch <br>
+### Estrutura com Switch <br>
 ![image](https://github.com/Joaocosmala/Estudos_backend/assets/78692465/d9f5cf7b-c2f5-4075-9873-65603182d7b5)
 
