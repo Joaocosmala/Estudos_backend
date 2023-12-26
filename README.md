@@ -678,48 +678,51 @@ Truthy: São valores que são considerados como verdadeiros quando avaliados em 
 Isso não significa que sejam estritamente iguais a true, mas são interpretados como verdadeiros.
 Alguns exemplos de valores truthy são: true, números diferentes de zero (1, 2.5, -1), strings não vazias ("hello"), arrays e objetos não vazios, e até mesmo certos objetos vazios que são considerados truthy.
 
-#### • Exemplos de valores truthy:
+#### Exemplos de valores truthy:
 if ("hello") { <br>
     // Este bloco será executado, pois a string "hello" é truthy <br>
-}
+} <br>
 
 Falsy: São estes valores que são considerados como falsos em um contexto booleano.
 Assim como com "truthy", isso não significa que sejam estritamente iguais a false, mas são interpretados como falsos.
 Alguns exemplos de valores falsy são: false, 0, null, undefined, NaN, strings vazias (""), null e undefined.
 
-#### • Exemplos de valores Falsy:
+#### Exemplos de valores Falsy:
 if (0) { <br>
     // Este bloco NÃO será executado, pois o valor 0 é falsy <br>
-}
+} <br>
 
 É importantíssimo entender estes conceitos quando trabalhar com condicionais em JavaScript, pois às vezes valores inesperados podem ser avaliados como verdadeiros ou falsos.
 O que pode afetar a lógica do programa. O conhecimento sobre valores truthy e falsy é útil para escrever código mais conciso e compreensível.
-
 
 Outros exemplos:
 
 if (true) { <br>
     console.log("true é truthy"); <br>
-}; // Resultado: true é truthy
+} <br>
+// Resultado: true é truthy
 
 
 if ("testando qualquer coisa") { <br>
     console.log("testando qualquer coisa é truthy"); <br>
-}; // Resultado: testando qualquer coisa é truthy
+} <br>
+// Resultado: testando qualquer coisa é truthy
 
 
 if ("") { <br>
     console.log("Aspas duplas vazias é truthy"); <br>
 } else { <br>
     console.log("Aspas duplas vazias é falsy"); <br>
-} // Resultado: Aspas duplas vazias é falsy
+} <br>
+// Resultado: Aspas duplas vazias é falsy
 
 
 if (0) { <br>
     console.log("0 é truthy"); <br>
 } else { <br>
     console.log("0 é falsy"); <br>
-} // Resultado: 0 é falsy
+} <br>
+// Resultado: 0 é falsy
 
 <br>
 
@@ -727,14 +730,67 @@ if (-0) { <br>
     console.log("0 é truthy"); <br>
 } else { <br>
     console.log("0 é falsy"); <br>
-} // Resultado: -0 é falsy
+} <br>
+// Resultado: -0 é falsy
 
-// ----------------------------------------------------------------------------------------------------------------------------------------
 
-let alistamento;
-
+let alistamento; <br>
 if (alistamento) { <br>
     console.log("Este rapaz se alistou no exército"); <br>
 } else { <br>
     console.log("Este rapaz ainda não se alistou no exército"); <br>
-} // Resultado: Falsy, porque let alistamento é undefined;
+} <br>
+// Resultado: Falsy, porque let alistamento é undefined;
+
+---------------------------------------
+
+# • Operador Ternário:
+Os operadores ternários são uma forma concisa e eficiente de escrever expressões condicionais em JavaScript (e em muitas outras linguagens de programação). Eles permitem que você tome decisões com base em uma condição, tudo em uma única linha. <br>
+
+Em JavaScript, o operador ternário tem a seguinte estrutura: <br>
+
+condição ? valorSeVerdadeiro : valorSeFalso; <br>
+
+Condição: Uma expressão que é avaliada como verdadeira ou falsa. <br>
+valorSeVerdadeiro: Valor retornado se a condição for verdadeira. <br>
+valorSeFalso: Valor retornado se a condição for falsa. <br>
+
+Exemplo: <br>
+let idade = 20; <br>
+let status = (idade >= 18) ? 'Adulto' : 'Menor'; <br>
+console.log(status); // Saída: 'Adulto' <br>
+
+Neste exemplo se a condição (idade >= 18) for verdadeira, a variável status receberá o valor 'Adulto'; caso contrário, receberá 'Menor'. <br>
+Os operadores ternários são úteis em situações em que você precisa atribuir um valor com base em uma condição simples, evitando a necessidade de escrever blocos if...else mais longos. No entanto, o uso excessivo de operadores ternários em expressões complexas pode dificultar a leitura do código, portanto, é importante usar com moderação para manter a clareza e a legibilidade. <br>
+
+
+Outros exemplos: <br>
+const media = 10; <br>
+let resultado; <br>
+
+if (media >= 7) { <br>
+resultado = "Aprovado"; <br>
+} else { <br>
+resultado = "Reprovado"; <br>
+}; <br>
+console.log(resultado); <br>
+Resultado: Aprovado <br>
+
+Agora se usarmos o operador ternário para fazer a mesma função, teremos algo semelhante a isso: <br>
+
+resultado = media >= 7 ? "Aprovado" : "Reprovado"; <br>
+
+O "?" simboliza o if (se), então caso seja maior que 7, então Aprovado, senão, Reprovado qualquer coisa abaixo de 7 <br>
+
+A prática no uso de operadores ternários impacta positivamente a questão do código limpo. Pois assim evita-se o uso em excesso de if, else e else if. <br>
+
+---------------------------------------
+
+# • Switch Case:
+
+if <br>
+![image](https://github.com/Joaocosmala/Estudos_backend/assets/78692465/d66670bc-7eb5-4cfe-b80e-d0fe33c615d5)
+
+Switch <br>
+![image](https://github.com/Joaocosmala/Estudos_backend/assets/78692465/d9f5cf7b-c2f5-4075-9873-65603182d7b5)
+
