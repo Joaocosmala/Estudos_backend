@@ -558,66 +558,75 @@ Este aqui é o que já aprendemos sobre variáveis anteriormente
 -> Variáveis
 Variáveis são maneiras de armazenarmos informações para que possamos usar novamente no futuro
 
+<br>
+
 var nome1 = "João";
 let nome2 = "Manu";
 const nome3 = "Shake"
 
+<br>
+
 // Porém, devemos entender agora o que é um escopo global, local ou em bloco/block.
 
-// Vamos pegar de referência os seguintes códigos:
+// Vamos pegar de referência os seguintes códigos: <br>
 // Código 1:
-const media = 10;
-if (media > 9) {
-    var resultado = "TESTE OK";
-}
+<br>
+const media = 10; <br>
+if (media > 9) { <br>
+    var resultado = "TESTE OK"; <br>
+} <br>
 console.log(resultado); // Resultado: TESTE OK. (está correto!) -> var;
 
-console.log("========================");
+<br>
+<br>
 
 /*
-// Porém, se:
+// Porém, se: <br>
 // Código 2:
 const mediaDois = 10;
 if (mediaDois > 9) {
     let resultadoUm = "TESTE OK";
-}
+} <br>
 console.log(resultadoUm); // Resultado: Retornará erro, resultadoUm is not defined -> let;
 // Isso acontece porque resultadoUm está dentro do bloco de código. A variável existe, mas seu valor nunca foi utilizado.
 
-console.log("========================");
+<br>
+<br>
 
-// E isso também acontece quando usamos const
+// E isso também acontece quando usamos const <br>
 // Código 3:
-const mediaTres = 10;
-if (mediaTres > 9) {
-    const resultadoDois = "TESTE OK";
+
+<br>
+const mediaTres = 10; <br>
+if (mediaTres > 9) { <br>
+    const resultadoDois = "TESTE OK"; <br>
 }
-console.log(resultadoDois); // Resultado: Retornará erro, resultadoDois is not defined -> const;
-// Isso acontece porque resultadoUm está dentro do bloco de código. A variável existe, mas seu valor nunca foi utilizado.
+console.log(resultadoDois); // Resultado: Retornará erro, resultadoDois is not defined -> const; <br>
+Isso acontece porque resultadoUm está dentro do bloco de código. A variável existe, mas seu valor nunca foi utilizado.
 
-Então para conseguirmos ter o resultado que buscamos mostrado na tela, precisamos colocar nosso console.log(); dentro do nosso bloco aonde está a variável que buscamos. */
+Então para conseguirmos ter o resultado que buscamos mostrado na tela, precisamos colocar nosso console.log(); dentro do nosso bloco aonde está a variável que buscamos.
 
-const mediaQuatro = 10;
-if (mediaQuatro > 9) {
-    const resultadoTres = "TESTE OK";
-    console.log(resultadoTres); // Agora está tudo dentro do mesmo bloco!!
+const mediaQuatro = 10; <br>
+if (mediaQuatro > 9) { <br>
+    const resultadoTres = "TESTE OK"; <br>
+    console.log(resultadoTres); // Agora está tudo dentro do mesmo bloco!! <br>
 };
-
+<br>
 ![image](https://github.com/Joaocosmala/Estudos_backend/assets/78692465/5df7886d-1696-4c5a-ad42-90af6aad2041)
-
+<br>
 Analisando está imagem podemos ver que:
 Em programação, o escopo se refere à visibilidade e acessibilidade de variáveis em diferentes partes do código.
 Em JavaScript, existem três tipos principais de escopo: global, local e de bloco.
 Cada tipo determina onde as variáveis podem ser acessadas e utilizadas.
-
+<br>
 1: No escopo global, as variáveis são declaradas fora de qualquer função.
 Isso significa que elas podem ser acessadas de qualquer lugar do código, seja dentro ou fora de funções.
 Variáveis globais são acessíveis em todo o programa.
-
+<br>
 2: No escopo local, as variáveis são declaradas dentro de uma função.
 Elas só podem ser acessadas dentro dessa função específica.
 Variáveis locais existem apenas dentro do contexto em que são definidas, e não podem ser acessadas fora desse contexto.
-
+<br>
 3: O escopo de bloco foi introduzido com a introdução do let e const.
 Variáveis declaradas com let e const têm escopo de bloco, o que significa que elas são visíveis apenas dentro do bloco de código em que são definidas.
 
@@ -626,23 +635,23 @@ Variáveis declaradas com let e const têm escopo de bloco, o que significa que 
 ### Truthy e Falsy
 Em JavaScript, os conceitos de "truthy" e "falsy" se referem à forma como os valores são avaliados em contextos booleanos, como em estruturas condicionais (if, while, &&, ||, entre outros).
 
-JavaScript reconhece todos os valores como verdadeiros em uma estrutura de condição, menos:
-• False
-• 0
-• -0
-• 0m
-• "" ou " ou ``
-• null
-• undefined
-• NaN
+JavaScript reconhece todos os valores como verdadeiros em uma estrutura de condição, menos: <br>
+• False <br>
+• 0 <br>
+• -0 <br>
+• 0m <br>
+• "" ou " ou `` <br>
+• null <br>
+• undefined <br>
+• NaN <br>
 
 Truthy: São valores que são considerados como verdadeiros quando avaliados em um contexto booleano.
 Isso não significa que sejam estritamente iguais a true, mas são interpretados como verdadeiros.
 Alguns exemplos de valores truthy são: true, números diferentes de zero (1, 2.5, -1), strings não vazias ("hello"), arrays e objetos não vazios, e até mesmo certos objetos vazios que são considerados truthy.
 
 #### • Exemplos de valores truthy:
-if ("hello") {
-    // Este bloco será executado, pois a string "hello" é truthy
+if ("hello") { <br>
+    // Este bloco será executado, pois a string "hello" é truthy <br>
 }
 
 Falsy: São estes valores que são considerados como falsos em um contexto booleano.
@@ -650,8 +659,8 @@ Assim como com "truthy", isso não significa que sejam estritamente iguais a fal
 Alguns exemplos de valores falsy são: false, 0, null, undefined, NaN, strings vazias (""), null e undefined.
 
 #### • Exemplos de valores Falsy:
-if (0) {
-    // Este bloco NÃO será executado, pois o valor 0 é falsy
+if (0) { <br>
+    // Este bloco NÃO será executado, pois o valor 0 é falsy <br>
 }
 
 É importantíssimo entender estes conceitos quando trabalhar com condicionais em JavaScript, pois às vezes valores inesperados podem ser avaliados como verdadeiros ou falsos.
@@ -660,31 +669,27 @@ O que pode afetar a lógica do programa. O conhecimento sobre valores truthy e f
 
 Outros exemplos:
 
-if (true) {
-    console.log("true é truthy");
+if (true) { <br>
+    console.log("true é truthy"); <br>
 }; // Resultado: true é truthy
 
 
-if ("testando qualquer coisa") {
-    console.log("testando qualquer coisa é truthy");
+if ("testando qualquer coisa") { <br>
+    console.log("testando qualquer coisa é truthy"); <br>
 }; // Resultado: testando qualquer coisa é truthy
 
 
-if ("") {
-    console.log("Aspas duplas vazias é truthy");
-
-} else {
-    console.log("Aspas duplas vazias é falsy");
-    
+if ("") { <br>
+    console.log("Aspas duplas vazias é truthy"); <br>
+} else { <br>
+    console.log("Aspas duplas vazias é falsy"); <br>
 } // Resultado: Aspas duplas vazias é falsy
 
 
-if (0) {
-    console.log("0 é truthy");
-    
-} else {
-    console.log("0 é falsy");
-    
+if (0) { <br>
+    console.log("0 é truthy"); <br>
+} else { <br>
+    console.log("0 é falsy"); <br>
 } // Resultado: 0 é falsy
 
 <br>
@@ -703,4 +708,4 @@ if (alistamento) { <br>
     console.log("Este rapaz se alistou no exército"); <br>
 } else { <br>
     console.log("Este rapaz ainda não se alistou no exército"); <br>
-} <br> // Resultado: Falsy, porque let alistamento é undefined;
+} // Resultado: Falsy, porque let alistamento é undefined;
