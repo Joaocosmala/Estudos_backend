@@ -506,8 +506,46 @@ Porém, caso coloquemos uma letra dentro das aspas, mesmo que ainda haja um núm
 Exemplo:
 console.log("20w" * 5);
 
-Outro ponto importante: Caso utilizarmos um número em strings " " e um número para fazer alguma operação, se fizermos uma soma utilizando + o JavaScript não irá considerar
+Outro ponto importante: Caso utilizarmos um número em strings " " e um número para fazer alguma operação, se fizermos uma soma utilizando + o JavaScript não irá consider
 a soma, e sim apenas adicionar o número em strings em frente ao número real
 Exemplo:
 
 console.log("20" + 5); // Resultado: 205
+
+---------------------------------------
+
+# • Estruturas Condicionais
+
+### Blocos de código
+Para entendermos as estruturas condicionais, primeiro precisamos entender o que são os blocos de código.
+Blocos de códigos são definidos por todo ou qualquer código que esteja dentro de chaves { }
+Exemplo:
+{
+// isso é um bloco de código
+// tudo que estiver dentro de abertura e fechamento de chaves
+// é bem simples
+}
+
+### IF, ELSE, ELSE IF
+Literal para o português: (se, senão, senão se)
+Estruturas de controle são definidas por condições, a partir de medidas ou caminhos que precisamos tomar enquanto estamos codificando.
+Exemplo:
+Preciso que meu código faça x coisa, porém, caso aconteça y coisa, quero que ocorra z coisa. Se não, quero que retorne x coisa. Endenteu? São condições que precisamos atribuir com ações.
+Essas condições também são baseadas como true ou false, por exemplo, quando determinada ação for true, faça x, quando for false, faça y.
+O caminho para isso seria algo semelhante a isso aqui: Start -> Condição (true ou false) if true -> ação1 -> end, (if false) -> ação2 -> end.
+![image](https://github.com/Joaocosmala/Estudos_backend/assets/78692465/ae8562ef-a625-4b53-bf82-eeab3e0091e6)
+
+Exemplo:
+let resultado;
+const numero = 10;
+
+if (numero >= 0 && numero < 9) {
+resultado = "Número maior ou igual a 0 e menor que 9";
+} else if (numero >= 10 && numero < 33) {
+resultado = "Número maior ou igual a 10 e menor do que 33";
+} else {
+resultado = "Número maior do que 32";
+};
+
+console.log(resultado);
+
