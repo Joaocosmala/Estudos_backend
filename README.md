@@ -549,3 +549,76 @@ resultado = "Número maior do que 32";
 
 console.log(resultado);
 
+
+### Variáveis -> ESCOPOS
+Este aqui é o que já aprendemos sobre variáveis anteriormente
+-> Variáveis
+Variáveis são maneiras de armazenarmos informações para que possamos usar novamente no futuro
+
+var nome1 = "João";
+let nome2 = "Manu";
+const nome3 = "Shake"
+
+// Porém, devemos entender agora o que é um escopo global, local ou em bloco/block.
+
+// Vamos pegar de referência os seguintes códigos:
+// Código 1:
+const media = 10;
+if (media > 9) {
+    var resultado = "TESTE OK";
+}
+console.log(resultado); // Resultado: TESTE OK. (está correto!) -> var;
+
+console.log("========================");
+
+/*
+// Porém, se:
+// Código 2:
+const mediaDois = 10;
+if (mediaDois > 9) {
+    let resultadoUm = "TESTE OK";
+}
+console.log(resultadoUm); // Resultado: Retornará erro, resultadoUm is not defined -> let;
+// Isso acontece porque resultadoUm está dentro do bloco de código. A variável existe, mas seu valor nunca foi utilizado.
+
+console.log("========================");
+
+// E isso também acontece quando usamos const
+// Código 3:
+const mediaTres = 10;
+if (mediaTres > 9) {
+    const resultadoDois = "TESTE OK";
+}
+console.log(resultadoDois); // Resultado: Retornará erro, resultadoDois is not defined -> const;
+// Isso acontece porque resultadoUm está dentro do bloco de código. A variável existe, mas seu valor nunca foi utilizado.
+
+Então para conseguirmos ter o resultado que buscamos mostrado na tela, precisamos colocar nosso console.log(); dentro do nosso bloco aonde está a variável que buscamos. */
+
+const mediaQuatro = 10;
+if (mediaQuatro > 9) {
+    const resultadoTres = "TESTE OK";
+    console.log(resultadoTres); // Agora está tudo dentro do mesmo bloco!!
+};
+
+![image](https://github.com/Joaocosmala/Estudos_backend/assets/78692465/5df7886d-1696-4c5a-ad42-90af6aad2041)
+
+Analisando está imagem podemos ver que:
+Em programação, o escopo se refere à visibilidade e acessibilidade de variáveis em diferentes partes do código.
+Em JavaScript, existem três tipos principais de escopo: global, local e de bloco.
+Cada tipo determina onde as variáveis podem ser acessadas e utilizadas.
+
+1: No escopo global, as variáveis são declaradas fora de qualquer função.
+Isso significa que elas podem ser acessadas de qualquer lugar do código, seja dentro ou fora de funções.
+Variáveis globais são acessíveis em todo o programa.
+
+2: No escopo local, as variáveis são declaradas dentro de uma função.
+Elas só podem ser acessadas dentro dessa função específica.
+Variáveis locais existem apenas dentro do contexto em que são definidas, e não podem ser acessadas fora desse contexto.
+
+3: O escopo de bloco foi introduzido com a introdução do let e const.
+Variáveis declaradas com let e const têm escopo de bloco, o que significa que elas são visíveis apenas dentro do bloco de código em que são definidas.
+
+
+### Truthy e Falsy
+
+
