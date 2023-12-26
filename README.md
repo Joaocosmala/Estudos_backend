@@ -383,71 +383,70 @@ OU
 
 Se tivermos valores booleanos novamente, receberemos 0 ou 1 como resposta ao invés de true ou false.
 
-const joao = true;
-const manu = false;
+const joao = true; <br>
+const manu = false; <br>
 
-console.log(joao | manu); // Resultado: 1 = true;
-console.log(manu | joao); // Resultado: 1 = true;
-console.log(joao | joao); // Resultado: 1 = true;
-console.log(manu | manu); // Resultado: 0 = false;
+console.log(joao | manu); // Resultado: 1 = true; <br>
+console.log(manu | joao); // Resultado: 1 = true; <br>
+console.log(joao | joao); // Resultado: 1 = true; <br>
+console.log(manu | manu); // Resultado: 0 = false; <br>
 
 // Observação, fora as condicionais de bit, em booleano, | também irá retornar o mesmo que ||, sendo necessário pelo menos um dos valores ser verdadeiro.
 
 ---------------------------------------
 
 ## • ! e !!
-O operador de negação, na minha opinião, é mais simples de ser usado.
-Ele irá transformar o que é true, em false, e o que é false, em true.
-Também podendo com: !! (dupla negação) transformar algo que é true, em true, ou algo que é false, em false
+O operador de negação, na minha opinião, é mais simples de ser usado. <br>
+Ele irá transformar o que é true, em false, e o que é false, em true. <br> 
+Também podendo com: !! (dupla negação) transformar algo que é true, em true, ou algo que é false, em false <br>
 
-Exemplos:
-const joao = true
-const manu = false
-
-console.log(joao) // Resultado: true;
-console.log(!joao) // Resultado: false;
-console.log(!!joao) // Resultado: true;
-console.log(manu) // Resultado: false;
-console.log(!manu) // Resultado: true;
-console.log(!!manu) // Resultado: false;
+Exemplos: <br>
+const joao = true <br>
+const manu = false <br>
+<br>
+console.log(joao) // Resultado: true; <br>
+console.log(!joao) // Resultado: false; <br>
+console.log(!!joao) // Resultado: true; <br>
+console.log(manu) // Resultado: false; <br>
+console.log(!manu) // Resultado: true; <br>
+console.log(!!manu) // Resultado: false; <br>
 
 ---------------------------------------
 
 # • Convenções e Padrões
 (Padrões de nomenclatura, convenções e o que são variáveis)
-
+<br>
 ### Variáveis (O que são ?)
 Variáveis são como contêineres ou espaços de armazenamento na programação, usados para guardar e manipular dados. Elas são como "caixas" nomeadas onde você pode guardar diferentes tipos de informações, como números, texto, listas, objetos, entre outros. Imagine uma caixa onde você coloca algo dentro e pode alterar ou trocar seu conteúdo sempre que necessário. As variáveis funcionam de maneira similar na programação. Ao usar variáveis, você dá um nome a um pedaço de memória do computador para referenciar e manipular esses dados. Por exemplo, você pode ter uma variável chamada idade para armazenar a idade de uma pessoa.
+<br>
+Exemplo: <br>
+const nome = joao <br>
+const idade = 23 <br>
 
-Exemplo:
-
-const nome = joao 
-const idade = 23
-
-(Assim como já estávamos fazendo anteriormente);
+(Assim como já estávamos fazendo anteriormente); <br>
 
 ---------------------------------------
 
 ### Convenções de nomes de variáveis
 
-NOME_VARIAVEL = valores que servem de referência
-Este tipo de nomenclatura de variável serve para armazenarmos valores que teremos como padrões em nossa aplicação.
+NOME_VARIAVEL = valores que servem de referência <br>
+Este tipo de nomenclatura de variável serve para armazenarmos valores que teremos como padrões em nossa aplicação. <br>
 
-Exemplo:
+Exemplo: <br>
 Você tem uma aplicação de contas a pagar aonde este retona para você cálculos de tudo que entrou naquele mês a pagar e em todos os cálulos é adicionado 2% de imposto.
 Estes 2% de imposto seria uma variável global, aonde o tipo de nomenclatura é seguido por: NOME_VARIAVEL
-
+<br>
 Fora este tópico, como padrão para todas as outras variáveis temos apenas que seguir as regras de nunca dar espaço, até porque o JavaScript não irá permitir uma variável de nome (Joao Guilherme), por exemplo, e também não colocar números, caractéres especiais ou começar com a minha letra maiúscula. (A primeira letra de qualquer variável deve ser sempre minúscula)
-
-Exemplo:
-nomeDaMinhaVariavel = Padrão para qualquer nome de variável.
+<br>
+Exemplo: <br>
+nomeDaMinhaVariavel = Padrão para qualquer nome de variável. <br>
 
 ---------------------------------------
 
 ### Palavras reservadas que não podem ser utilizadas em nome de variáveis
 Palavras reservadas em JavaScript são termos que têm significados específicos dentro da linguagem e são utilizados para várias finalidades, como declaração de variáveis, definição de estruturas de controle (como loops e condicionais), definição de funções, entre outros. Essas palavras têm funções pré-definidas na linguagem e não podem ser usadas para outros propósitos, como nomear variáveis, funções ou classes. Por exemplo, palavras reservadas como if, else, for, while, function, var, let, const, entre outras, são usadas para definir a estrutura do código, e tentar utilizá-las como nomes de variáveis resultaria em erros no código JavaScript.
-
-Mais exemplos de palavras reservadas:
+<br>
+Mais exemplos de palavras reservadas: <br>
 break, case, catch, class, const, continue, debugger, default, delete, do, else, enum, export, extends, false, finally, for, function, if, implements, import, in, instanceof, interface, let, new, null, package, private, protected, public, return, static, super, switch, this, throw, true, try, typeof, var, void, while, with, yield
 
 ---------------------------------------
@@ -456,19 +455,19 @@ break, case, catch, class, const, continue, debugger, default, delete, do, else,
 
 ##### • undefined:
 É um valor primitivo que indica que uma variável foi declarada, mas ainda não foi atribuída com um valor.
-Quando você declara uma variável e não a inicializa, seu valor padrão é undefined. Ou seja, quando é esperado um valor, porém, ele não existe.
-Também é o valor retornado por uma função que não tem uma declaração return explícita ou por acessar propriedades inexistentes em um objeto.
+Quando você declara uma variável e não a inicializa, seu valor padrão é undefined. Ou seja, quando é esperado um valor, porém, ele não existe. <br>
+Também é o valor retornado por uma função que não tem uma declaração return explícita ou por acessar propriedades inexistentes em um objeto. <br>
 
 ##### • null:
-Já o null é um valor especial que representa a ausência intencional de um valor ou a falta de um valor válido.
-Quando uma variável é declarada, mas nenhum valor é atribuído a ela, seu valor padrão é undefined. No entanto, quando você define explicitamente uma variável como null, está indicando que essa variável não possui nenhum valor ou referência a um objeto.
+Já o null é um valor especial que representa a ausência intencional de um valor ou a falta de um valor válido. <br>
+Quando uma variável é declarada, mas nenhum valor é atribuído a ela, seu valor padrão é undefined. No entanto, quando você define explicitamente uma variável como null, está indicando que essa variável não possui nenhum valor ou referência a um objeto. <br>
+<br>
+Exemplos: <br>
+let exemploUndefined; <br>
+console.log(exemploUndefined); // Resultado: undefined <br>
 
-Exemplos:
-let exemploUndefined;
-console.log(exemploUndefined); // Resultado: undefined
-
-let exemploNull = null;
-console.log(exemploNull); // Resultado: null
+let exemploNull = null; <br>
+console.log(exemploNull); // Resultado: null <br>
 
 ---------------------------------------
 
@@ -531,14 +530,14 @@ tudo que estiver dentro de abertura e fechamento de chaves <br>
 ---------------------------------------
 
 ### IF, ELSE, ELSE IF
-Literal para o português: (se, senão, senão se)
-Estruturas de controle são definidas por condições, a partir de medidas ou caminhos que precisamos tomar enquanto estamos codificando.
+Literal para o português: (se, senão, senão se) <br>
+Estruturas de controle são definidas por condições, a partir de medidas ou caminhos que precisamos tomar enquanto estamos codificando. <br>
 
-Exemplo:
-Preciso que meu código faça x coisa, porém, caso aconteça y coisa, quero que ocorra z coisa. Se não, quero que retorne x coisa. Endenteu? São condições que precisamos atribuir com ações.
-Essas condições também são baseadas como true ou false, por exemplo, quando determinada ação for true, faça x, quando for false, faça y.
-O caminho para isso seria algo semelhante a isso aqui: Start -> Condição (true ou false) if true -> ação1 -> end, (if false) -> ação2 -> end.
-![image](https://github.com/Joaocosmala/Estudos_backend/assets/78692465/ae8562ef-a625-4b53-bf82-eeab3e0091e6) <br>
+Exemplo: <br>
+Preciso que meu código faça x coisa, porém, caso aconteça y coisa, quero que ocorra z coisa. Se não, quero que retorne x coisa. Endenteu? São condições que precisamos atribuir com ações. <br>
+Essas condições também são baseadas como true ou false, por exemplo, quando determinada ação for true, faça x, quando for false, faça y. <br>
+O caminho para isso seria algo semelhante a isso aqui: Start -> Condição (true ou false) if true -> ação1 -> end, (if false) -> ação2 -> end. <br>
+![image](https://github.com/Joaocosmala/Estudos_backend/assets/78692465/ae8562ef-a625-4b53-bf82-eeab3e0091e6)
 
 Exemplo: <br>
 let resultado; <br>
