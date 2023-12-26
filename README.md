@@ -671,30 +671,46 @@ if ("testando qualquer coisa") {
 
 
 if ("") {
-    console.log("Aspas duplas vazias é truthy"); 
+
+    console.log("Aspas duplas vazias é truthy");
+
 } else {
+
     console.log("Aspas duplas vazias é falsy");
+    
 } // Resultado: Aspas duplas vazias é falsy
 
 
 if (0) {
+
     console.log("0 é truthy");
+    
 } else {
+
     console.log("0 é falsy");
+    
 } // Resultado: 0 é falsy
 
 
 if (-0) {
+
     console.log("0 é truthy");
+    
 } else {
+
     console.log("0 é falsy");
+    
 } // Resultado: -0 é falsy
 
 // ----------------------------------------------------------------------------------------------------------------------------------------
 
 let alistamento;
 if (alistamento) {
+
     console.log("Este rapaz se alistou no exército");
+    
 } else {
+
     console.log("Este rapaz ainda não se alistou no exército");
+    
 } // Resultado: Falsy, porque let alistamento é undefined;
