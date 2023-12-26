@@ -4,384 +4,389 @@
 
 # • Operadores Matemáticos
 ### Somar
-1 + 1 = 2, 10 + 10 = 20
-Exemplo:
-console.log(1 + 10) = 11
-Ou, console.log("O valor da soma é: ", 20 + 20) = 40
+1 + 1 = 2, 10 + 10 = 20 <br>
+Exemplo: <br>
+console.log(1 + 10) = 11 <br>
+Ou, console.log("O valor da soma é: ", 20 + 20) = 40 <br>
 
-Mais exemplos:
-const numero1 = 10;
-const numero2 = 40;
+Mais exemplos: <br>
+const numero1 = 10; <br>
+const numero2 = 40; <br>
 
-const soma = numero1 + numero2;
+const soma = numero1 + numero2; <br>
 
-console.log("O Valor da soma é: ", soma);
-Resultado: O Valor da soma é: 50
+console.log("O Valor da soma é: ", soma); <br>
+Resultado: O Valor da soma é: 50 <br>
 
 ### Subtrair
-const numero1 = 10;
-const numero2 = 40;
+const numero1 = 10; <br>
+const numero2 = 40; <br>
 
-const sub = numero1 - numero2;
+const sub = numero1 - numero2; <br>
 
-console.log("O Valor da subtração é: ", sub);
-Resultado: O Valor da subtração é: -30
+console.log("O Valor da subtração é: ", sub); <br>
+Resultado: O Valor da subtração é: -30 <br>
 
 ### Dividir
-const numero1 = 10;
-const numero2 = 40;
+const numero1 = 10; <br>
+const numero2 = 40; <br>
 
-const div = numero1 / numero2;
+const div = numero1 / numero2; <br>
 
-console.log("O Valor da divisão é: ", div);
-Resultado: O Valor da divisão é: 0.25
+console.log("O Valor da divisão é: ", div); <br>
+Resultado: O Valor da divisão é: 0.25 <br>
 
 ### Multiplicação
-const numero1 = 10;
-const numero2 = 40;
+const numero1 = 10; <br>
+const numero2 = 40; <br>
 
-const multi = numero1 * numero2;
+const multi = numero1 * numero2; <br>
 
-console.log("O Valor da multiplicação é: ", multi);
-Resultado: O Valor da multiplicação é: 400
+console.log("O Valor da multiplicação é: ", multi); <br>
+Resultado: O Valor da multiplicação é: 400 <br>
 
 ---------------------------------------
 
 # • Strings e Concatenação
 
 ### Strings
-Strings são: letras, números, caractéres diversos e textos
-Identificadas por tipagem string, ou " "
+Strings são: letras, números, caractéres diversos e textos <br>
+Identificadas por tipagem string, ou " " <br>
 
-Exemplos:
-console.log("João Cosmala, Web Developer"); // = String em " "
+Exemplos: <br>
+console.log("João Cosmala, Web Developer"); // = String em " " <br>
 
-// Diferenças
-console.log("10"); // string
-console.log(10); // número
+// Diferenças <br>
+console.log("10"); // string <br>
+console.log(10); // número <br>
 
-console.log("10 + 10"); // Retorno: 10 + 10
-console.log(10 + 10); // Retorno: 20
+console.log("10 + 10"); // Retorno: 10 + 10 <br>
+console.log(10 + 10); // Retorno: 20 <br>
 
 ## Concatenação (mesclar)
-Concatenação pode ser dita como: mesclar ou juntar
-Se define em mesclar duas coisas diferentes em um aguardando um (1) resultado conjunto destes dois (2).
+Concatenação pode ser dita como: mesclar ou juntar <br>
+Se define em mesclar duas coisas diferentes em um aguardando um (1) resultado conjunto destes dois (2). <br>
 
-Exemplo:
-console.log("Meu nome é João e tenho " + 23, "anos");
-Você acabou de concatenar uma string e um número.
+Exemplo: <br>
+console.log("Meu nome é João e tenho " + 23, "anos"); <br>
+Você acabou de concatenar uma string e um número. <br>
 
-Outro meio de fazer isso é usando crases: ("` `") e $
+Outro meio de fazer isso é usando crases: ("` `") e $ <br>
 
-Exemplo:
-Meu nome é joão e minha idade é: ${23}
+Exemplo: <br>
+Meu nome é joão e minha idade é: ${23} <br>
 
 ---------------------------------------
 
 # • Variáveis em JavaScript
-Variáveis são maneiras de armazenarmos informações para que possamos usar novamente no futuro
+Variáveis são maneiras de armazenarmos informações para que possamos usar novamente no futuro <br>
 
 ### VAR, LET E CONST
-Em JavaScript temos:
-VAR
-LET
-CONST
+Em JavaScript temos: VAR, LET, CONST
 
-### VAR
-VAR -> Maneira antiga de escrever variáveis.
-Perminte que adicionemos um valor nele, e posteriormente, podemos alterar este valor
+#### VAR
+VAR -> Maneira antiga de escrever variáveis. <br>
+Perminte que adicionemos um valor nele, e posteriormente, podemos alterar este valor <br>
 
-### LET
+#### LET
 LET -> Podemos adicionar um valor a ele, podendo também alterar este mesmo valor
 
-### CONST
-CONST -> Adicionamos um valor e ele é definido como único, sem poder alterar este valor depois.
-Sendo está uma variável que só deve conter este determinado valor.
+#### CONST 
+CONST -> Adicionamos um valor e ele é definido como único, sem poder alterar este valor depois. <br>
+Sendo está uma variável que só deve conter este determinado valor. <br>
 
-Exemplos:
-var nome1 = "João";
-let nome2 = "João";
-const nome3 = "João";
+Exemplos: <br>
+var nome1 = "João"; <br>
+let nome2 = "João"; <br>
+const nome3 = "João"; <br>
 
 ---------------------------------------
 
 # • Números em JavaScript
 
-Em JavaScript, diferente de outras linguagens, quando se tem um número, mesmo que seja impar, par, possua casa decimal e afins, ele não terá o que é conhecido como Float, Double, Integers e etc... Em JavaScript tudo isso é mais simplificado em um único tipo, tipo Number. Ou seja, qualquer coisa que seja um número, será dado como um número.
+Em JavaScript, diferente de outras linguagens, quando se tem um número, mesmo que seja impar, par, possua casa decimal e afins, ele não terá o que é conhecido como Float, Double, Integers e etc... Em JavaScript tudo isso é mais simplificado em um único tipo, tipo Number. Ou seja, qualquer coisa que seja um número, será dado como um número. <br>
 
-Exemplos:
-console.log(21 + 10) = 31;
-console.log(20 + 24.4444) = 44.4444;
-console.log("10" + 10) = 1010 (??????) -> Isso ocorre porque número em aspas se torna uma string, deixando de ser um number.
+Exemplos: <br>
+console.log(21 + 10) = 31; <br>
+console.log(20 + 24.4444) = 44.4444; <br>
+console.log("10" + 10) = 1010 (??????) -> Isso ocorre porque número em aspas se torna uma string, deixando de ser um number. <br>
 
-Exemplos: 
-console.log(10) -> numero
-console.log("10") -> string
+Exemplos:  <br>
+console.log(10) -> numero <br>
+console.log("10") -> string <br>
 
-Outro fator importante são as casas decimais. Em JavaScript casas decimais são separadas por pontos ( . ), e não por vírgulas ( , ).
-console.log(12, 3 + 13 + 3) -> 12, 16, 3
+Outro fator importante são as casas decimais. Em JavaScript casas decimais são separadas por pontos ( . ), e não por vírgulas ( , ). <br>
+console.log(12, 3 + 13 + 3) -> 12, 16, 3 <br>
 
-números também podem ser armazenados em variáveis:
-const idade = 23
-console.log(idade) -> 23
+números também podem ser armazenados em variáveis: <br>
+const idade = 23 <br>
+console.log(idade) -> 23 <br>
 
-Resumindo, para trabalhar com números, devemos mante-los fora de strings, senão seram tratados como strings.
+Resumindo, para trabalhar com números, devemos mante-los fora de strings, senão seram tratados como strings. <br>
 
 ---------------------------------------
 
 # • Valores Booleanos
 
-Valores booleanos são true ou false. 0 ou 1. Verdadeiro ou falso.
+Valores booleanos são true ou false. 0 ou 1. Verdadeiro ou falso. <br>
 
-Exemplo:
+Exemplo: <br>
+const dormindo = false <br>
+const acordado = true <br>
 
-const dormindo = false
-const acordado = true
-
-const comFome = "true" -> Não é booleano, é string, lembre-se das " " !!
+const comFome = "true" -> Não é booleano, é string, lembre-se das " " !! <br>
 
 ---------------------------------------
 
 # • Operadores
-
-Operadores são conhecidos como: "Operadores Lógicos", do qual são designados por símbolos que definem alguma função, algum ato, algum dever no seu código através da sua lógica.
+Operadores são conhecidos como: "Operadores Lógicos", do qual são designados por símbolos que definem alguma função, algum ato, algum dever no seu código através da sua lógica. <br>
 
 ## Operadores de: Atribuição, adição, subtração;
-Alguns exemplos de operadores são:
-• 1: = -> Operador de atribuição
-• 2: += -> Operador de adição
-• 3: -= -> Operador de subtração
+Alguns exemplos de operadores são: <br>
+• 1: = -> Operador de atribuição <br>
+• 2: += -> Operador de adição <br>
+• 3: -= -> Operador de subtração <br>
 
-Exemplos:
-// Atribuilçao
-let idade;
-idade = 23;
-console.log(idade); // Resultado = 23
+Exemplos: <br>
+// Atribuilçao <br>
 
-let recebe = 2000;
-recebe = recebe + 10;
-console.log("Meu saldo é: ", recebe); // Resultado = 2010
+let idade; <br>
+idade = 23; <br>
+console.log(idade); // Resultado = 23 <br>
 
-recebe += 400;
-console.log("Meu saldo é: ", recebe); // Resultado = 2410
+let recebe = 2000; <br>
+recebe = recebe + 10; <br>
+console.log("Meu saldo é: ", recebe); // Resultado = 2010 <br>
 
-recebe = recebe - 200;
-console.log("Meu saldo é: ", recebe); // Resultado = 2210
+recebe += 400; <br>
+console.log("Meu saldo é: ", recebe); // Resultado = 2410 <br>
 
-recebe -= 200;
-console.log("Meu saldo é: ", recebe); // Resultado = 2010
+recebe = recebe - 200; <br>
+console.log("Meu saldo é: ", recebe); // Resultado = 2210 <br>
+
+recebe -= 200; <br>
+console.log("Meu saldo é: ", recebe); // Resultado = 2010 <br>
 
 ## Operadores de: Comparação;
-Operadores de comparação sempre iram retornar true ou false no console.log;
+Operadores de comparação sempre iram retornar true ou false no console.log; <br>
 
-Alguns exemplos de operadores de comparação são:
-• 1: == -> Igual
-• 2: != -> Diferente
-• 3: === -> Estritamente igual
-• 4: !== -> Estritamente diferente
-• 5: > -> Maior que
-• 6: < -> Menor que
-• 7: >= Maior ou igual que
-• 8: <= Menor ou igual que
+Alguns exemplos de operadores de comparação são: <br>
+• 1: == -> Igual <br>
+• 2: != -> Diferente <br>
+• 3: === -> Estritamente igual <br>
+• 4: !== -> Estritamente diferente <br>
+• 5: > -> Maior que <br>
+• 6: < -> Menor que <br>
+• 7: >= Maior ou igual que <br>
+• 8: <= Menor ou igual que <br>
 
-Exemplos:
+Exemplos: <br>
 
 ## Operador de = (igual):
 console.log("20 == 20: ", 20 == 20);
 // Resultado = true; 20 é igual a 20 então: true;
-
+<br>
 console.log("21 == 20: ", 20 == 20);
 // Resultado = false; 21 não é igual a 20 então: false;
-
+<br>
 console.log("21 == 21: ", 21 == 21);
 // Resultado = true; 21 é igual a 21 então: true;
-
+<br>
 ## Operador de != (Diferente):
 console.log("20 != 20: ", 20 != 20); 
 // Resultado = false; 20 não é diferente de 20 então: false;
-
+<br>
 console.log("21 != 20: ", 21 != 20);
 // Resultado = true; 21 é diferente de 20 então: true;
-
+<br>
 console.log("21 != 21: ", 21 != 21);
 // Resultado = false; 21 não é diferente de 21 então: false;
-
+<br>
 ## Operador de === (Estritamente igual):
 console.log("20 === 20: ", 20 === 20);
 // Resultado = true; 20 é estritamente igual a 20 então: true;
-
+<br>
 console.log("21 === 21: ", "21" === 21);
-// Resultado = false; "21" não é estritamente igual a 21 então: false;
-Aqui vemos que === identificada "21" diferente de 20 pois 21 está em " " aspas, o deixando em string, logo, "21" não é estritamente igual a 21 porque "21" é uma string e 21 é um número.
-
+// Resultado = false; "21" não é estritamente igual a 21 então: false; <br>
+Aqui vemos que === identificada "21" diferente de 20 pois 21 está em " " aspas, o deixando em string, logo, "21" não é estritamente igual a 21 porque "21" é uma string e 21 é um número. <br>
+<br>
 console.log("21 === 21: ", 21 === 21);
 // Resultado = true; 21 é estritamente igual a 21 então: true;
-
+<br>
 ## Operador de !== (Estritamente Diferente):
 console.log("20 !== 20: ", 20 !== 20);
 // Resultado = false; 20 não é estritamente diferente de 20 então: false;
-
+<br>
 console.log("21 !== 20: ", 21 !== 20);
 // Resultado = true; 21 é estritamente diferente de 20 então: true;
-
+<br>
 console.log("21 !== 21: ", 21 !== 21);
 // Resultado = false; 21 não é estritamente diferente de 21 então: false;
-
+<br>
 ## Operador de > (Maior que):
 console.log("20 é maior que 20? ", 20 > 20);
 // Resultado = false; 20 não é maior que 20 então: false;
-
+<br>
 console.log("21 é maior que 20? ", 21 > 20);
 // Resultado = true; 21 é maior que 20 então: true;
-
+<br>
 console.log("21 é maior que 21? ", 21 > 21);
 // Resultado = false; 21 não é maior que 21 então: false;
-
+<br>
 ## Operador de < (Menor que):
 console.log("20 é menor que 20? ", 20 < 20);
 // Resultado = false; 20 não é menor que 20 então: false;
-
+<br>
 console.log("21 é menor que 20? ", 21 < 20);
 // Resultado = false; 21 não é menor que 20 então: false;
-
+<br>
 console.log("21 é menor que 21? ", 21 < 21);
 // Resultado = false; 21 não é menor que 20 então: false;
-
+<br>
 console.log("12 é menor que 20? ", 12 < 20);
 // Resultado = true; 12 é menor que 20 então: true;
-
+<br>
 ## Operador de >= (Maior ou igual que):
 console.log("20 é maior ou igual que 20? ", 20 >= 20);
 // Resultado = true; 20 é maior ou igual a 20 então: true;
-
+<br>
 console.log("21 é maior ou igual que 20? ", 21 >= 20);
 // Resultado = true; 21 é maior ou igual a 20 então: true;
-
+<br>
 console.log("12 é maior ou igual que 20? ", 12 >= 20);
 // Resultado = false; 12 não é maior ou igual a 20 então: false;
-
+<br>
 ## Operador de <= (Menor ou igual que):
 console.log("20 é menor ou igual que 20? ", 20 <= 20);
 // Resultado = true; 20 é menor ou igual a 20 então: true;
-
+<br>
 console.log("21 é menor ou igual que 20? ", 21 <= 20);
 // Resultado = true; 21 não é menor ou igual a 20 então: false;
-
+<br>
 console.log("12 é menor ou igual que 20? ", 12 <= 20);
 // Resultado = false; 12 não é menor ou igual a 20 então: true;
 
 ---------------------------------------
 
 # • Operadores Lógicos;
-Operadores lógicos são operadores que assim como os anteriores, também determinam uma função. Assim como em Lógica Aplicada, opedadores lógicos são usados para determinar: E, OU, OUOU, NEGAÇÃO e etc...
+Operadores lógicos são operadores que assim como os anteriores, também determinam uma função. Assim como em Lógica Aplicada, opedadores lógicos são usados para determinar: E, OU, OUOU, NEGAÇÃO e etc... <br>
 
-Aqui temos como principais:
-• -> && -> E -> and lógico
-• -> || -> OU -> or lógico
-• -> ! -> NEGAÇÃO -> negação lógica
+Aqui temos como principais: <br>
+• -> && -> E -> and lógico <br>
+• -> || -> OU -> or lógico <br>
+• -> ! -> NEGAÇÃO -> negação lógica <br>
 
 ## &&
-• Para que retorne um verdadeiro (true), as duas condições precisam ser verdadeiras
-Exemplo:
-• true && true = true;
-• false && false = true;
-• true && false = false;
-• false && true = false;
+• Para que retorne um verdadeiro (true), as duas condições precisam ser verdadeiras <br>
+Exemplo: <br>
+• true && true = true; <br>
+• false && false = true; <br>
+• true && false = false; <br>
+• false && true = false; <br>
 
-TRUE
-const nome = "joao";
-const idade = 23;
-console.log(nome === "joao" && idade === 23);
-// Resultado: true; nome é === estritamente igual a "joao" && (E) idade também é estritamente igual a 23;
+TRUE <br>
+const nome = "joao"; <br>
+const idade = 23; <br>
+console.log(nome === "joao" && idade === 23); <br>
+// Resultado: true; nome é === estritamente igual a "joao" && (E) idade também é estritamente igual a 23; <br>
 
-FALSE
-const nome = "joao";
-const idade = 23;
-console.log(nome === "joao" && idade === 20);
-// Resultado: false; nome é === estritamente igual a "joao" && (E) idade não é estritamente igual a 23;
+FALSE <br>
+const nome = "joao"; <br>
+const idade = 23; <br>
+console.log(nome === "joao" && idade === 20); <br>
+// Resultado: false; nome é === estritamente igual a "joao" && (E) idade não é estritamente igual a 23; <br>
 
-TRUE
-console.log("23 >= 23 && 70 >= 70: ", 23 >= 23 && 70 >= 70);
-// Resultado: true; Porque 23 é maior ou igual a 23 e 70 é maior ou igual a 70
+TRUE <br>
+console.log("23 >= 23 && 70 >= 70: ", 23 >= 23 && 70 >= 70); <br>
+// Resultado: true; Porque 23 é maior ou igual a 23 e 70 é maior ou igual a 70 <br>
 
 ---------------------------------------
 
 ## || e |
-• || -> Para que retorne um verdadeiro (true), uma das condições deve ser verdadeira
-Exemplo para ||:
-• true || true = true;
-• false || false = false;
-• true || false = true;
-• false || true = true;
+• || -> Para que retorne um verdadeiro (true), uma das condições deve ser verdadeira <br>
 
-const joao = true;
-const manu = false;
+Exemplo ||: <br>
+• true || true = true; <br>
+• false || false = false; <br>
+• true || false = true; <br>
+• false || true = true; <br>
 
-console.log(joao || manu); // Resultado: true;
-console.log(manu || joao); // Resultado: true;
-console.log(joao || joao); // Resultado: true;
-console.log(manu || manu); // Resultado: false;
+const joao = true; <br>
+const manu = false; <br>
 
-Mais exemplos:
-(Aqui resolvi dar um exemplo mais avançado pois ele se adequa melhor a questão de como costuma ser mais utilizado esse contexto das Pipes)
+console.log(joao || manu); // Resultado: true; <br>
+console.log(manu || joao); // Resultado: true; <br>
+console.log(joao || joao); // Resultado: true; <br>
+console.log(manu || manu); // Resultado: false; <br>
+
+Mais exemplos: <br>
+(Aqui resolvi dar um exemplo mais avançado pois ele se adequa melhor a questão de como costuma ser mais utilizado esse contexto das Pipes) <br>
+
 Observação:
-Levando em consideração o mercado de trabalho, muitas vezez precisamos determinar e comparar valores para as nossas funções através de 0 e 1
+Levando em consideração o mercado de trabalho, muitas vezez precisamos determinar e comparar valores para as nossas funções através de 0 e 1 <br>
 
+---------------------------------------
 
-• Situação 1: Resultado true
+• Situação 1: Resultado true <br>
 
-//Aqui temos um objeto com o nome de sexualidade que nos trás dois valores BOOLEANOS, verdadeiro para masculino e falso para feminino
-const sexualidade = {
-    masculino: true,
-    feminino: false,
-};
+//Aqui temos um objeto com o nome de sexualidade que nos trás dois valores BOOLEANOS, verdadeiro para masculino e falso para feminino <br>
+const sexualidade = { <br>
+    masculino: true, <br>
+    feminino: false, <br>
+}; <br>
 
-//Denominei duas variáveis, uma com o nome de joao, e outra com o nome de manu.
-//joao é masculino, logo, é verdadeiro
-//manu é feminino, logo, é falso
-const joao = sexualidade.masculino; // true
-const manu = sexualidade.feminino; // false
+//Denominei duas variáveis, uma com o nome de joao, e outra com o nome de manu. <br>
+//joao é masculino, logo, é verdadeiro <br>
+//manu é feminino, logo, é falso <br>
+const joao = sexualidade.masculino; // true <br>
+const manu = sexualidade.feminino; // false <br>
 
-// E para nos mostrar o resultado no terminal temos mais um console.log com o Operador Lógico de || para identificar valores 0 e 1 / verdadeiro e falso.
-console.log(joao || manu); // Resultado: true; Porque João é verdadeiro;
+// E para nos mostrar o resultado no terminal temos mais um console.log com o Operador Lógico de || para identificar valores 0 e 1 / verdadeiro e falso. <br>
+console.log(joao || manu); // Resultado: true; Porque João é verdadeiro; <br>
 
-• Situação 2: Resultado true
+---------------------------------------
 
-const joao = sexualidade.feminino; // false
-const manu = sexualidade.masculino; // true
+• Situação 2: Resultado true <br>
 
-console.log(joao || manu); // Resultado: true; Porque Manu é verdadeiro;
+const joao = sexualidade.feminino; // false <br>
+const manu = sexualidade.masculino; // true <br>
 
-• Situação 3: Resultado false
+console.log(joao || manu); // Resultado: true; Porque Manu é verdadeiro; <br>
 
-const joao = sexualidade.feminino; // false
-const manu = sexualidade.feminino; // false
+---------------------------------------
 
-console.log(joao || manu); // Resultado: false; Porque João e Manu são falsos;
+• Situação 3: Resultado false <br>
 
-• Situação 4: Resultado true
+const joao = sexualidade.feminino; // false <br>
+const manu = sexualidade.feminino; // false <br>
 
-const joao = sexualidade.feminino; // true
-const manu = sexualidade.masculino; // true
+console.log(joao || manu); // Resultado: false; Porque João e Manu são falsos; <br>
 
-console.log(joao || manu); // Resultado: true; Porque Joao e Manu são verdadeiros;
+---------------------------------------
+
+• Situação 4: Resultado true <br>
+
+const joao = sexualidade.feminino; // true <br>
+const manu = sexualidade.masculino; // true <br>
+
+console.log(joao || manu); // Resultado: true; Porque Joao e Manu são verdadeiros; <br>
 
 ---------------------------------------
 
 ## • | (BitWise)
-Agora iremos mudar um pouco sobre oq aprendemos de true ou false em || e considerar manipular bits com | (bitwise)
-O operador | é usado como um manipulador de bits. Se tratarmos variáveis booleanas (true or false) com |, ele irá nos retornar 1 ou 0;
-Porém, também pode ser usado para realizar operações lógicas. No entanto, ao contrário do ||, o | opera nos bits individuais dos números.
-Normalmente é usado em situações onde a manipulação de bits é necessária.
+Agora iremos mudar um pouco sobre oq aprendemos de true ou false em || e considerar manipular bits com | (bitwise) <br>
+O operador | é usado como um manipulador de bits. Se tratarmos variáveis booleanas (true or false) com |, ele irá nos retornar 1 ou 0; <br>
+Porém, também pode ser usado para realizar operações lógicas. No entanto, ao contrário do ||, o | opera nos bits individuais dos números. <br>
+Normalmente é usado em situações onde a manipulação de bits é necessária. <br>
 
-Exemplo:
-let x = 5; // Em binário: 0101;
-let y = 3; // Em binário: 0011;
-let result = x | y; // Resultado: 7 (binário: 0111);
+Exemplo: <br>
+let x = 5; // Em binário: 0101; <br>
+let y = 3; // Em binário: 0011; <br>
+let result = x | y; // Resultado: 7 (binário: 0111); <br>
 
-OU
+OU <br>
 
-Se tivermos valores booleanos novamente, receberemos 0 ou 1 como resposta ao invés de true ou false.
+Se tivermos valores booleanos novamente, receberemos 0 ou 1 como resposta ao invés de true ou false. <br>
 
 const joao = true; <br>
 const manu = false; <br>
@@ -391,7 +396,7 @@ console.log(manu | joao); // Resultado: 1 = true; <br>
 console.log(joao | joao); // Resultado: 1 = true; <br>
 console.log(manu | manu); // Resultado: 0 = false; <br>
 
-// Observação, fora as condicionais de bit, em booleano, | também irá retornar o mesmo que ||, sendo necessário pelo menos um dos valores ser verdadeiro.
+// Observação, fora as condicionais de bit, em booleano, | também irá retornar o mesmo que ||, sendo necessário pelo menos um dos valores ser verdadeiro. <br>
 
 ---------------------------------------
 
@@ -418,7 +423,7 @@ console.log(!!manu) // Resultado: false; <br>
 <br>
 ### Variáveis (O que são ?)
 Variáveis são como contêineres ou espaços de armazenamento na programação, usados para guardar e manipular dados. Elas são como "caixas" nomeadas onde você pode guardar diferentes tipos de informações, como números, texto, listas, objetos, entre outros. Imagine uma caixa onde você coloca algo dentro e pode alterar ou trocar seu conteúdo sempre que necessário. As variáveis funcionam de maneira similar na programação. Ao usar variáveis, você dá um nome a um pedaço de memória do computador para referenciar e manipular esses dados. Por exemplo, você pode ter uma variável chamada idade para armazenar a idade de uma pessoa.
-<br>
+
 Exemplo: <br>
 const nome = joao <br>
 const idade = 23 <br>
