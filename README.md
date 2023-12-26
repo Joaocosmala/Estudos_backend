@@ -815,16 +815,16 @@ switch (expressao) { <br>
 A partir disso também temos outras condições para utilizarmos junto ao Switch Case. <br>
 
 #### expressao:
-É a expressão que será avaliada. O valor dela será comparado com os valores dos casos.
-<br>
+É a expressão que será avaliada. O valor dela será comparado com os valores dos casos. <br>
+
 #### case valorN:
-Cada case representa um valor específico que a expressão pode ter. Se a expressão for igual a valorN, o código dentro desse case será executado.
-<br>
+Cada case representa um valor específico que a expressão pode ter. Se a expressão for igual a valorN, o código dentro desse case será executado. <br>
+
 #### break:
-É usado para sair do bloco switch após um case ser executado. Se esquecido, o código continuará executando no próximo case mesmo se não houver correspondência de valor.
-<br>
+É usado para sair do bloco switch após um case ser executado. Se esquecido, o código continuará executando no próximo case mesmo se não houver correspondência de valor. <br>
+
 #### default:
-É opcional e é executado se nenhum dos casos corresponder à expressão. Funciona como um "caso padrão".
+É opcional e é executado se nenhum dos casos corresponder à expressão. Funciona como um "caso padrão". <br>
 
 ---------------------------------------
 
@@ -990,3 +990,165 @@ Ele ainda irá percorrer a lista de nomes, mesmo que o código seja escrito de o
 ---------------------------------------
 
 # • Funções:
+Funções são reaproveitamento de código, exatamente para não precisarmos ficar reescrevendo o mesmo código toda vez que precisarmos deste.
+Elas ajudam a modularizar o código, tornando-o mais organizado, legível e reutilizável.
+Entre as princípais características das funções estão:
+
+### Reutilização de Código:
+As funções permitem definir um bloco de código que pode ser chamado várias vezes em diferentes partes do programa, evitando a repetição do mesmo código.
+
+// ---------------------------------------
+
+### Nomeação:
+As funções podem ter um nome que as identifica, permitindo referenciar e chamar a função pelo nome em qualquer parte do código.
+
+// ---------------------------------------
+
+### Parâmetros e Argumentos:
+Podem receber valores chamados de parâmetros quando são definidas e valores chamados de argumentos quando são chamadas.
+Esses valores permitem que as funções sejam flexíveis e capazes de lidar com diferentes inputs.
+
+// ---------------------------------------
+
+### Retorno de Valores:
+Podem retornar um valor de volta para a parte do código que chamou a função.
+O return é usado para especificar o valor que a função deve produzir como resultado.
+
+// ---------------------------------------
+
+### Escopo:
+As variáveis definidas dentro de uma função têm um escopo local, o que significa que não podem ser acessadas fora da função, a menos que sejam explicitamente retornadas.
+
+// ---------------------------------------
+
+### Declaração e Expressão de Funções:
+Podem ser declaradas utilizando a palavra-chave function ou podem ser expressas como funções anônimas (atribuídas a variáveis ou passadas como argumentos).
+
+---------------------------------------
+
+## Como utilizar funções:
+
+- Exemplo de função sem parâmetro:
+function mostrarNome( ) {
+    console.log("João");
+};
+mostrarNome( ); Resultado: João.
+
+// ---------------------------------------
+
+- Exemplo de função com parâmetro:
+function mostrarAlgumNome(name) {
+    console.log(name);
+};
+mostrarAlgumNome("João"); // Este é o parâmetro que eu quero que apareça.
+
+// ---------------------------------------
+
+- Mais exemplos de funções:
+
+-> Sem parâmetro:
+function showMyName() {
+    console.log("João");
+  };
+showMyName();
+
+
+-> Com parâmetro:
+function showRandomName(name) {
+    console.log(name);
+};
+showRandomName("João");
+showRandomName("Paulo");
+showRandomName("Sebastião");
+showRandomName("Carolina");
+showRandomName("Manu");
+Resultado: João, Paulo, Sebastião, Carolina, Manu.
+
+Observe que passamos quantos parâmetros forem necessários.
+
+// ---------------------------------------
+
+Agora para variarmos um pouco na utilização de exemplos, vamos criar uma função que faz a soma de 3 ou mais números:
+Exemplo:
+
+function somarNumeros(numero1, numero2, numero3, numero4) {
+    console.log("O Resultado da soma de todos os números é: ", numero1 + numero2 + numero3 + numero4);
+};
+somarNumeros(10, 48, 39, 64);
+Resultado: 161;
+
+---------------------------------------
+
+# Funções com Return:
+As funções com return em JavaScript são blocos de código que executam uma tarefa específica e retornam um valor como resultado.
+Estas são as principais caracteristícas:
+
+// ---------------------------------------
+
+### Execução de Tarefa Específica:
+As funções são usadas para agrupar um conjunto de instruções que realizam uma tarefa particular.
+Essas tarefas podem ser desde cálculos simples até processamentos mais complexos.
+
+// ---------------------------------------
+
+### Palavra-chave return:
+O return é usado para especificar o valor que a função deve produzir como resultado quando ela é chamada.
+Essa declaração interrompe a execução da função e retorna imediatamente o valor especificado.
+
+// ---------------------------------------
+
+### Valores de Retorno:
+As funções podem retornar qualquer tipo de valor em JavaScript, como strings, números, objetos, arrays ou até mesmo valores booleanos (verdadeiro ou falso).
+
+// ---------------------------------------
+
+### Utilidade em Operações e Avaliações:
+O return é útil para retornar resultados de operações matemáticas, processamento de dados, validações condicionais ou qualquer lógica que produza um resultado a ser utilizado em outro lugar do código.
+
+
+Exemplo:
+function soma(a, b) {
+  return a + b;
+}
+
+let resultado = soma(3, 5);
+console.log(resultado);
+Resultado: 8
+
+// ---------------------------------------
+
+Mais Exemplos:
+function somarAllNumeros(n1, n2, n3, n4) {
+    const somatoria = n1 + n2 + n3 + n4;
+    console.log(somatoria);
+};
+somarAllNumeros(20, 40, 238, 127);
+Resultado: 425
+
+// ---------------------------------------
+
+Outros exemplos:
+Neste exemplo agora estamos utilizando de funções com return para criar uma função que retorna a media dos 4 números dispostos.
+function somarTodos(n1, n2, n3, n4) {
+    const somandoNumbers = n1 + n2 + n3 + n4;
+    return somandoNumbers;
+};
+
+function media(somandoNumbers) {
+    const estudanteMedia = somandoNumbers / 4;
+    return estudanteMedia
+};
+
+const scoreDoEstudante = somarTodos(10, 10, 10, 10);
+if (media(scoreDoEstudante) === 10) {
+    console.log("Você é fera!!!!!!!!");
+} else if (media(scoreDoEstudante) <= 5 ) {
+    console.log("Sinto muito, mas está de recuperação.");
+} else {
+    console.log("Passou!!!!");
+}
+
+---------------------------------------
+
+# Arrays
+
