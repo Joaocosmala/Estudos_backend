@@ -687,13 +687,12 @@ if (0) {
     
 } // Resultado: 0 é falsy
 
+<br>
 
-if (-0) {
-    console.log("0 é truthy");
-
-} else {
-    console.log("0 é falsy");
-    
+if (-0) { <br>
+    console.log("0 é truthy"); <br>
+} else { <br>
+    console.log("0 é falsy"); <br>
 } // Resultado: -0 é falsy
 
 // ----------------------------------------------------------------------------------------------------------------------------------------
@@ -703,5 +702,5 @@ let alistamento;
 if (alistamento) { <br>
     console.log("Este rapaz se alistou no exército"); <br>
 } else { <br>
-    console.log("Este rapaz ainda não se alistou no exército");
-} // Resultado: Falsy, porque let alistamento é undefined; <br>
+    console.log("Este rapaz ainda não se alistou no exército"); <br>
+} <br> // Resultado: Falsy, porque let alistamento é undefined;
