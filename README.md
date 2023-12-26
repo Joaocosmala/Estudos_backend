@@ -794,3 +794,199 @@ A prática no uso de operadores ternários impacta positivamente a questão do c
 ### Estrutura com Switch <br>
 ![image](https://github.com/Joaocosmala/Estudos_backend/assets/78692465/d9f5cf7b-c2f5-4075-9873-65603182d7b5)
 
+<br>
+
+Swtich Case: <br>
+O switch em JavaScript é uma estrutura de controle que permite avaliar uma expressão em comparação com vários casos. Dependendo do valor da expressão, o código executa diferentes blocos de código. <br>
+
+A estrutura básica do switch é a seguinte: <br>
+switch (expressao) { <br>
+  case valor1: <br>
+    // Código a ser executado se expressao for igual a valor1 <br>
+    break; <br>
+  case valor2: <br>
+    // Código a ser executado se expressao for igual a valor2 <br>
+    break; <br>
+  // ... <br>
+  default: <br>
+    // Código a ser executado se nenhum caso corresponder a expressao <br>
+} <br>
+
+A partir disso também temos outras condições para utilizarmos junto ao Switch Case. <br>
+
+#### expressao:
+É a expressão que será avaliada. O valor dela será comparado com os valores dos casos.
+<br>
+#### case valorN:
+Cada case representa um valor específico que a expressão pode ter. Se a expressão for igual a valorN, o código dentro desse case será executado.
+<br>
+#### break:
+É usado para sair do bloco switch após um case ser executado. Se esquecido, o código continuará executando no próximo case mesmo se não houver correspondência de valor.
+<br>
+#### default:
+É opcional e é executado se nenhum dos casos corresponder à expressão. Funciona como um "caso padrão".
+
+---------------------------------------
+
+Exemplos: <br>
+Utilizando exemplos com if para demonstração: <br>
+
+const nome = "Manu"; <br>
+if (nome == "João") { <br>
+    console.log("O nome é João"); <br>
+} else if (nome === "Manu") { <br>
+    console.log("O nome é Manu"); <br>
+} else { <br>
+    console.log("Sem nome na lista"); <br>
+}; <br>
+
+
+Utilizando Swtich Case: <br>
+const nomeDois = "Pitoco"; <br>
+
+switch(nomeDois) { <br>
+    case "Shake" : // Case === caso, se... Exemplo: Caso for... então... semelhante ao uso do if e else e else if <br>
+        console.log("O nome é Shake"); <br>
+        break; // Adicionamos o break para que o cósigo não continue correndo para as próximas linhas <br>
+        case "Pitoco" : <br>
+            console.log("O nome é Pitoco"); <br>
+            break; <br>
+            default : <br>
+            console.log("Sem nome na lista"); <br>
+}; <br>
+
+---------------------------------------
+
+# • Loops:
+Os loops em JavaScript são estruturas que permitem executar um bloco de código repetidamente enquanto uma condição específica é verdadeira. <br>
+Eles ajudam a automatizar tarefas repetitivas sem a necessidade de escrever o mesmo código várias vezes. <br>
+
+Existem vários tipos de Loops em JavaScript, os principais são: <br>
+• while <br>
+• do while <br>
+• for <br>
+• for of <br>
+
+Em alguns momentos precisamos que algumas estruturas de códigos se repitam várias vezes, e os loops fazem este serviço muito bem. <br>
+
+Aqui abaixo citarei os principais e demonstrarei exemplos em seguida. <br>
+
+---------------------------------------
+
+### • while:
+A declaração do tipo While cria um laço que executa especificamente enquanto a condição de teste for avaliada como verdadeira. Sendo assim a condição avaliada antes da execução da rotina. <br>
+
+Exemplos while: <br>
+let n = 0; <br>
+let x = 0; <br>
+
+while (n < 3) { // Se n for menor que 3 (lembrando que n é 0) <br>
+    n++; // Então adicionamos 1 n a mais <br>
+    console.log(x); <br>
+}; <br>
+
+-> Do 0 até 10 <br>
+let number = 0; <br>
+while (number <= 9) { <br>
+    number++; <br>
+    console.log(number); <br>
+} <br>
+Resultado: 0 até 10 <br>
+
+// --------------------------------------- <br>
+
+-> Do 300 até 0 <br>
+let numeroMaximo = 300 <br>
+while (numeroMaximo > 0) { <br>
+    numeroMaximo-- <br>
+    console.log(numeroMaximo); <br>
+} <br>
+Resultado: 300 Até 0 <br>
+
+---------------------------------------
+
+### • do while:
+A declaração do tipo do while cria um laço de repetição que executa uma declaração até que o teste da condição for false (false). A condição é avaliada depois que o bloco de código é executado, resultando que uma declaração seja executada pelo menos uma vez. <br>
+
+Exemplos de do while: <br>
+let resultado = ""; <br>
+let i = 0; <br>
+do { <br>
+i += 1; <br>
+resultado += i + " "; <br>
+} while (i < 5); <br>
+
+console.log(resultado); <br>
+
+// --------------------------------------- <br>
+
+let resultadoDois = ""; <br>
+let i = 0; <br>
+do { <br>
+    i++; <br>
+    resultadoDois += i + ""; <br>
+} while (i < 5); <br>
+console.log(resultadoDois); <br>
+
+A estrutura do while é semelhante ao if, porém, a sintaxe do "do while" é um pouco diferente. <br>
+
+---------------------------------------
+
+### • for:
+A instrução for cria um loop que consiste em 3 expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas essa de uma declaração ou uma sequência de declarações executadas em sequência. <br>
+for é uma das estruturas de repetição mais usadas e mais conhecidas, também está presente em muitas outras línguagens. <br>
+
+Exemplo: <br>
+-> Contando de 0 a 20 <br>
+for (var i = 0; i < 20; i++) { <br>
+console.log(i); <br>
+}; // Resultado: 0 a 20 <br>
+
+-> Contando de 0 a 10 <br>
+for (let e = 0; e <= 10; e++) { <br>
+    console.log(e); <br>
+}; // Resultado: 0 a 10 <br>
+
+---------------------------------------
+
+### • for of:
+O Loop for of percorre objetos iterativos, chamando uma função personalizada com instruções a serem executadas para o valor de cada objeto distinto. <br>
+A estrutura do for of se utiliza de um array. <br>
+
+Exemplos: <br>
+let iterable = [10, 20, 30]; <br>
+    for (let value of iterable) { <br>
+    console.log(value); <br>
+}; Resultado: 10, 20, 30 <br>
+
+// --------------------------------------- <br>
+
+A estrutura do for of se utiliza de um array para percorrer uma lista de nomes, números ou o que precisar. <br>
+
+const peoples = [ <br>
+    "Bruno", <br>
+    "Marco", <br>
+    "Pedro", <br>
+    "Nadia", <br>
+    "Isa", <br>
+]; <br>
+
+for (let people of peoples) { <br>
+    console.log(people); <br>
+}; Resultado: Bruno, Marco, Pedro, Nadia, Isa. <br>
+
+Ele retorna para nós os dados que estão dentro deste array, no caso, os nomes postos. <br>
+
+// --------------------------------------- <br>
+
+Porém, também é possível escrever este mesmo código ainda usando o que vimos até agora sobre o for padrão. <br>
+
+for(let i = 0; i < peoples.length; i++ ) { <br>
+    console.log(peoples[i]); <br>
+}; <br>
+
+Ele ainda irá percorrer a lista de nomes, mesmo que o código seja escrito de outra maneira. <br>
+
+---------------------------------------
+
+# • Funções:
