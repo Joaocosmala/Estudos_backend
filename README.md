@@ -12,7 +12,8 @@ console.log(1 + 10) = 11 <br>
 Ou, console.log("O valor da soma é: ", 20 + 20) = 40 <br>
 
 Mais exemplos: <br>
-const numero1 = 10; <br>
+
+{`const numero1 = 10; <br>`}
 const numero2 = 40; <br>
 
 const soma = numero1 + numero2; <br>
