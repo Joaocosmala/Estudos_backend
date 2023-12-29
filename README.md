@@ -641,7 +641,76 @@ if (mediaQuatro > 9) { <br>
     console.log(resultadoTres); // Agora está tudo dentro do mesmo bloco!! <br>
 };
 <br>
-![image](https://github.com/Joaocosmala/Estudos_backend/assets/78692465/5df7886d-1696-4c5a-ad42-90af6aad2041)
+<table>
+    <tr>
+        <td> </td>
+        <td>
+            VAR
+        </td>
+        <td>
+            CONST
+        </td>
+        <td>
+            LET
+        </td>
+    </tr>
+    <tr>
+        <td>
+            SCOPE
+        </td>
+        <td>
+            GLOBAL OR LOCAL
+        </td>
+        <td>
+            BLOCK
+        </td>
+        <td>
+            BLOCK
+        </td>
+    </tr>
+    <tr>
+        <td>
+            REDECLARE?
+        </td>
+        <td>
+            YES
+        </td>
+        <td>
+            NO
+        </td>
+        <td>
+            NO
+        </td>
+    </tr>
+    <tr>
+        <td>
+            REASSIGN?
+        </td>
+        <td>
+            YES
+        </td>
+        <td>
+            NO
+        </td>
+        <td>
+            YES
+        </td>
+    </tr>
+    <tr>
+        <td>
+            HOISTED?
+        </td>
+        <td>
+            YES
+        </td>
+        <td>
+            NO
+        </td>
+        <td>
+            NO
+        </td>
+    </tr>
+</table>
 <br>
 Analisando está imagem podemos ver que:
 Em programação, o escopo se refere à visibilidade e acessibilidade de variáveis em diferentes partes do código.
