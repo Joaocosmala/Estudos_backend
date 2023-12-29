@@ -8,45 +8,38 @@
 10 + 10 = 20 <br>
 
 Exemplo: <br>
-console.log(1 + 10) = 11 <br>
-Ou, console.log("O valor da soma é: ", 20 + 20) = 40 <br>
+`console.log(1 + 10) = 11` <br>
+Ou <br>
+`console.log("O valor da soma é: ", 20 + 20) = 40` <br>
 
 Mais exemplos: <br>
 
-`const numero1 = 10; <br>
-const numero2 = 40; <br>`
-
-const soma = numero1 + numero2; <br>
-
-console.log("O Valor da soma é: ", soma); <br>
-Resultado: O Valor da soma é: 50 <br>
+`const numero1 = 10;` <br>
+`const numero2 = 40;` <br>
+`const soma = numero1 + numero2;` <br>
+`console.log("O Valor da soma é: ", soma);` <br>
+`Resultado: O Valor da soma é: 50` <br>
 
 ### Subtrair
-const numero1 = 10; <br>
-const numero2 = 40; <br>
-
-const sub = numero1 - numero2; <br>
-
-console.log("O Valor da subtração é: ", sub); <br>
-Resultado: O Valor da subtração é: -30 <br>
+`const numero1 = 10;` <br>
+`const numero2 = 40;` <br>
+`const sub = numero1 - numero2;` <br>
+`console.log("O Valor da subtração é: ", sub);` <br>
+`Resultado: O Valor da subtração é: -30` <br>
 
 ### Dividir
-const numero1 = 10; <br>
-const numero2 = 40; <br>
-
-const div = numero1 / numero2; <br>
-
-console.log("O Valor da divisão é: ", div); <br>
-Resultado: O Valor da divisão é: 0.25 <br>
+`const numero1 = 10;` <br>
+`const numero2 = 40;` <br>
+`const div = numero1 / numero2;` <br>
+`console.log("O Valor da divisão é: ", div);` <br>
+`Resultado: O Valor da divisão é: 0.25` <br>
 
 ### Multiplicação
-const numero1 = 10; <br>
-const numero2 = 40; <br>
-
-const multi = numero1 * numero2; <br>
-
-console.log("O Valor da multiplicação é: ", multi); <br>
-Resultado: O Valor da multiplicação é: 400 <br>
+`const numero1 = 10;` <br>
+`const numero2 = 40;` <br>
+`const multi = numero1 * numero2;` <br>
+`console.log("O Valor da multiplicação é: ", multi);` <br>
+`Resultado: O Valor da multiplicação é: 400` <br>
 
 ---------------------------------------
 
@@ -57,21 +50,21 @@ Strings são: letras, números, caractéres diversos e textos <br>
 Identificadas por tipagem string, ou " " <br>
 
 Exemplos: <br>
-console.log("João Cosmala, Web Developer"); // = String em " " <br>
+`console.log("João Cosmala, Web Developer");` = String em " " <br>
 
-// Diferenças <br>
-console.log("10"); // string <br>
-console.log(10); // número <br>
+Diferenças <br>
+`console.log("10");` = string <br>
+`console.log(10);` = número <br>
 
-console.log("10 + 10"); // Retorno: 10 + 10 <br>
-console.log(10 + 10); // Retorno: 20 <br>
+`console.log("10 + 10");` Retorno: 10 + 10 <br>
+`console.log(10 + 10);` Retorno: 20 <br>
 
 ## Concatenação (mesclar)
 Concatenação pode ser dita como: mesclar ou juntar <br>
 Se define em mesclar duas coisas diferentes em um aguardando um (1) resultado conjunto destes dois (2). <br>
 
 Exemplo: <br>
-console.log("Meu nome é João e tenho " + 23, "anos"); <br>
+`console.log("Meu nome é João e tenho " + 23, "anos");` <br>
 Você acabou de concatenar uma string e um número. <br>
 
 Outro meio de fazer isso é usando crases: ("` `") e $ <br>
@@ -88,26 +81,26 @@ Em JavaScript temos: VAR, LET, CONST <br>
 ---------------------------------------
 
 #### VAR
-VAR -> Maneira antiga de escrever variáveis. <br>
+Maneira antiga de escrever variáveis. <br>
 Perminte que adicionemos um valor nele, e posteriormente, podemos alterar este valor <br>
 
 ---------------------------------------
 
 #### LET
-LET -> Podemos adicionar um valor a ele, podendo também alterar este mesmo valor
+Podemos adicionar um valor a ele, podendo também alterar este mesmo valor
 
 ---------------------------------------
 
 #### CONST 
-CONST -> Adicionamos um valor e ele é definido como único, sem poder alterar este valor depois. <br>
+Adicionamos um valor e ele é definido como único, sem poder alterar este valor depois. <br>
 Sendo está uma variável que só deve conter este determinado valor. <br>
 
 ---------------------------------------
 
 Exemplos: <br>
-var nome1 = "João"; <br>
-let nome2 = "João"; <br>
-const nome3 = "João"; <br>
+`var nome1 = "João";` <br>
+`let nome2 = "João";` <br>
+`const nome3 = "João";` <br>
 
 ---------------------------------------
 
@@ -116,20 +109,20 @@ const nome3 = "João"; <br>
 Em JavaScript, diferente de outras linguagens, quando se tem um número, mesmo que seja impar, par, possua casa decimal e afins, ele não terá o que é conhecido como Float, Double, Integers e etc... Em JavaScript tudo isso é mais simplificado em um único tipo, tipo Number. Ou seja, qualquer coisa que seja um número, será dado como um número. <br>
 
 Exemplos: <br>
-console.log(21 + 10) = 31; <br>
-console.log(20 + 24.4444) = 44.4444; <br>
-console.log("10" + 10) = 1010 (??????) -> Isso ocorre porque número em aspas se torna uma string, deixando de ser um number. <br>
+`console.log(21 + 10) = 31;` <br>
+`console.log(20 + 24.4444) = 44.4444;` <br>
+`console.log("10" + 10) = 1010` (??????) -> Isso ocorre porque número em aspas se torna uma string, deixando de ser um number. <br>
 
 Exemplos:  <br>
-console.log(10) -> numero <br>
-console.log("10") -> string <br>
+`console.log(10)` -> numero <br>
+`console.log("10")` -> string <br>
 
 Outro fator importante são as casas decimais. Em JavaScript casas decimais são separadas por pontos ( . ), e não por vírgulas ( , ). <br>
 console.log(12, 3 + 13 + 3) -> 12, 16, 3 <br>
 
 números também podem ser armazenados em variáveis: <br>
-const idade = 23 <br>
-console.log(idade) -> 23 <br>
+`const idade = 23;` <br>
+`console.log(idade);` -> 23 <br>
 
 Resumindo, para trabalhar com números, devemos mante-los fora de strings, senão seram tratados como strings. <br>
 
@@ -140,10 +133,10 @@ Resumindo, para trabalhar com números, devemos mante-los fora de strings, senã
 Valores booleanos são true ou false. 0 ou 1. Verdadeiro ou falso. <br>
 
 Exemplo: <br>
-const dormindo = false <br>
-const acordado = true <br>
+`const dormindo = false` <br>
+`const acordado = true` <br>
 
-const comFome = "true" -> Não é booleano, é string, lembre-se das " " !! <br>
+`const comFome = "true"` -> Não é booleano, é string, lembre-se das " " !! <br>
 
 ---------------------------------------
 
@@ -159,22 +152,22 @@ Alguns exemplos de operadores são: <br>
 Exemplos: <br>
 #### Atribuilçao <br>
 
-let idade; <br>
-idade = 23; <br>
-console.log(idade); // Resultado = 23 <br>
+`let idade;` <br>
+`idade = 23;` <br>
+`console.log(idade);` Resultado = 23 <br>
 
-let recebe = 2000; <br>
-recebe = recebe + 10; <br>
-console.log("Meu saldo é: ", recebe); // Resultado = 2010 <br>
+`let recebe = 2000;` <br>
+`recebe = recebe + 10;` <br>
+`console.log("Meu saldo é: ", recebe);` Resultado = 2010 <br>
 
-recebe += 400; <br>
-console.log("Meu saldo é: ", recebe); // Resultado = 2410 <br>
+`recebe += 400;` <br>
+`console.log("Meu saldo é: ", recebe);` Resultado = 2410 <br>
 
-recebe = recebe - 200; <br>
-console.log("Meu saldo é: ", recebe); // Resultado = 2210 <br>
+`recebe = recebe - 200;` <br>
+`console.log("Meu saldo é: ", recebe);` Resultado = 2210 <br>
 
-recebe -= 200; <br>
-console.log("Meu saldo é: ", recebe); // Resultado = 2010 <br>
+`recebe -= 200;` <br>
+`console.log("Meu saldo é: ", recebe);` Resultado = 2010 <br>
 
 ## Operadores de: Comparação;
 Operadores de comparação sempre iram retornar true ou false no console.log; <br>
@@ -192,108 +185,108 @@ Alguns exemplos de operadores de comparação são: <br>
 Exemplos: <br>
 
 ## Operador de = (igual):
-console.log("20 == 20: ", 20 == 20);
-// Resultado = true; 20 é igual a 20 então: true;
-console.log("21 == 20: ", 20 == 20);
-// Resultado = false; 21 não é igual a 20 então: false;
+`console.log("20 == 20: ", 20 == 20);`
+= Resultado = true; 20 é igual a 20 então: true;
+`console.log("21 == 20: ", 20 == 20);`
+= Resultado = false; 21 não é igual a 20 então: false;
 <br>
-console.log("21 == 21: ", 21 == 21); <br>
-// Resultado = true; 21 é igual a 21 então: true;
+`console.log("21 == 21: ", 21 == 21);` <br>
+= Resultado = true; 21 é igual a 21 então: true;
 <br>
 
 ---------------------------------------
 
 ## Operador de != (Diferente):
-console.log("20 != 20: ", 20 != 20); 
-// Resultado = false; 20 não é diferente de 20 então: false;
+`console.log("20 != 20: ", 20 != 20);` 
+= Resultado = false; 20 não é diferente de 20 então: false;
 <br>
-console.log("21 != 20: ", 21 != 20);
-// Resultado = true; 21 é diferente de 20 então: true;
+`console.log("21 != 20: ", 21 != 20);`
+= Resultado = true; 21 é diferente de 20 então: true;
 <br>
-console.log("21 != 21: ", 21 != 21);
-// Resultado = false; 21 não é diferente de 21 então: false;
+`console.log("21 != 21: ", 21 != 21);`
+= Resultado = false; 21 não é diferente de 21 então: false;
 <br>
 
 ---------------------------------------
 
 ## Operador de === (Estritamente igual):
-console.log("20 === 20: ", 20 === 20);
-// Resultado = true; 20 é estritamente igual a 20 então: true;
+`console.log("20 === 20: ", 20 === 20);`
+= Resultado = true; 20 é estritamente igual a 20 então: true;
 <br>
-console.log("21 === 21: ", "21" === 21);
-// Resultado = false; "21" não é estritamente igual a 21 então: false; <br>
+`console.log("21 === 21: ", "21" === 21);`
+= Resultado = false; "21" não é estritamente igual a 21 então: false; <br>
 Aqui vemos que === identificada "21" diferente de 20 pois 21 está em " " aspas, o deixando em string, logo, "21" não é estritamente igual a 21 porque "21" é uma string e 21 é um número. <br>
 <br>
-console.log("21 === 21: ", 21 === 21);
-// Resultado = true; 21 é estritamente igual a 21 então: true;
+`console.log("21 === 21: ", 21 === 21);`
+= Resultado = true; 21 é estritamente igual a 21 então: true;
 <br>
 
 ---------------------------------------
 
 ## Operador de !== (Estritamente Diferente):
-console.log("20 !== 20: ", 20 !== 20);
-// Resultado = false; 20 não é estritamente diferente de 20 então: false;
+`console.log("20 !== 20: ", 20 !== 20);`
+= Resultado = false; 20 não é estritamente diferente de 20 então: false;
 <br>
-console.log("21 !== 20: ", 21 !== 20);
-// Resultado = true; 21 é estritamente diferente de 20 então: true;
+`console.log("21 !== 20: ", 21 !== 20);`
+= Resultado = true; 21 é estritamente diferente de 20 então: true;
 <br>
-console.log("21 !== 21: ", 21 !== 21);
-// Resultado = false; 21 não é estritamente diferente de 21 então: false;
+`console.log("21 !== 21: ", 21 !== 21);`
+= Resultado = false; 21 não é estritamente diferente de 21 então: false;
 <br>
 
 ---------------------------------------
 
 ## Operador de > (Maior que):
-console.log("20 é maior que 20? ", 20 > 20);
-// Resultado = false; 20 não é maior que 20 então: false;
+`console.log("20 é maior que 20? ", 20 > 20);`
+= Resultado = false; 20 não é maior que 20 então: false;
 <br>
-console.log("21 é maior que 20? ", 21 > 20);
-// Resultado = true; 21 é maior que 20 então: true;
+`console.log("21 é maior que 20? ", 21 > 20);`
+= Resultado = true; 21 é maior que 20 então: true;
 <br>
-console.log("21 é maior que 21? ", 21 > 21);
-// Resultado = false; 21 não é maior que 21 então: false;
+`console.log("21 é maior que 21? ", 21 > 21);`
+= Resultado = false; 21 não é maior que 21 então: false;
 <br>
 
 ---------------------------------------
 
 ## Operador de < (Menor que):
-console.log("20 é menor que 20? ", 20 < 20);
-// Resultado = false; 20 não é menor que 20 então: false;
+`console.log("20 é menor que 20? ", 20 < 20);`
+= Resultado = false; 20 não é menor que 20 então: false;
 <br>
-console.log("21 é menor que 20? ", 21 < 20);
-// Resultado = false; 21 não é menor que 20 então: false;
+`console.log("21 é menor que 20? ", 21 < 20);`
+= Resultado = false; 21 não é menor que 20 então: false;
 <br>
-console.log("21 é menor que 21? ", 21 < 21);
-// Resultado = false; 21 não é menor que 20 então: false;
+`console.log("21 é menor que 21? ", 21 < 21);`
+= Resultado = false; 21 não é menor que 20 então: false;
 <br>
-console.log("12 é menor que 20? ", 12 < 20);
-// Resultado = true; 12 é menor que 20 então: true;
+`console.log("12 é menor que 20? ", 12 < 20);`
+= Resultado = true; 12 é menor que 20 então: true;
 <br>
 
 ---------------------------------------
 
 ## Operador de >= (Maior ou igual que):
-console.log("20 é maior ou igual que 20? ", 20 >= 20);
-// Resultado = true; 20 é maior ou igual a 20 então: true;
+`console.log("20 é maior ou igual que 20? ", 20 >= 20);`
+= Resultado = true; 20 é maior ou igual a 20 então: true;
 <br>
-console.log("21 é maior ou igual que 20? ", 21 >= 20);
-// Resultado = true; 21 é maior ou igual a 20 então: true;
+`console.log("21 é maior ou igual que 20? ", 21 >= 20);`
+= Resultado = true; 21 é maior ou igual a 20 então: true;
 <br>
-console.log("12 é maior ou igual que 20? ", 12 >= 20);
-// Resultado = false; 12 não é maior ou igual a 20 então: false;
+`console.log("12 é maior ou igual que 20? ", 12 >= 20);`
+= Resultado = false; 12 não é maior ou igual a 20 então: false;
 <br>
 
 ---------------------------------------
 
 ## Operador de <= (Menor ou igual que):
-console.log("20 é menor ou igual que 20? ", 20 <= 20);
-// Resultado = true; 20 é menor ou igual a 20 então: true;
+`console.log("20 é menor ou igual que 20? ", 20 <= 20);`
+= Resultado = true; 20 é menor ou igual a 20 então: true;
 <br>
-console.log("21 é menor ou igual que 20? ", 21 <= 20);
-// Resultado = true; 21 não é menor ou igual a 20 então: false;
+`console.log("21 é menor ou igual que 20? ", 21 <= 20);`
+= Resultado = true; 21 não é menor ou igual a 20 então: false;
 <br>
-console.log("12 é menor ou igual que 20? ", 12 <= 20);
-// Resultado = false; 12 não é menor ou igual a 20 então: true;
+`console.log("12 é menor ou igual que 20? ", 12 <= 20);`
+= Resultado = false; 12 não é menor ou igual a 20 então: true;
 <br>
 
 ---------------------------------------
@@ -315,20 +308,20 @@ Exemplo: <br>
 • false && true = false; <br>
 
 TRUE <br>
-const nome = "joao"; <br>
-const idade = 23; <br>
-console.log(nome === "joao" && idade === 23); <br>
-// Resultado: true; nome é === estritamente igual a "joao" && (E) idade também é estritamente igual a 23; <br>
+`const nome = "joao";` <br>
+`const idade = 23;` <br>
+`console.log(nome === "joao" && idade === 23);` <br>
+`Resultado: true; nome é === estritamente igual a "joao" && (E) idade também é estritamente igual a 23;` <br>
 
 FALSE <br>
-const nome = "joao"; <br>
-const idade = 23; <br>
-console.log(nome === "joao" && idade === 20); <br>
-// Resultado: false; nome é === estritamente igual a "joao" && (E) idade não é estritamente igual a 23; <br>
+`const nome = "joao";` <br>
+`const idade = 23;` <br>
+`console.log(nome === "joao" && idade === 20);` <br>
+`Resultado: false; nome é === estritamente igual a "joao" && (E) idade não é estritamente igual a 23;` <br>
 
 TRUE <br>
-console.log("23 >= 23 && 70 >= 70: ", 23 >= 23 && 70 >= 70); <br>
-// Resultado: true; Porque 23 é maior ou igual a 23 e 70 é maior ou igual a 70 <br>
+`console.log("23 >= 23 && 70 >= 70: ", 23 >= 23 && 70 >= 70);` <br>
+`Resultado: true; Porque 23 é maior ou igual a 23 e 70 é maior ou igual a 70;` <br>
 
 ---------------------------------------
 
@@ -341,13 +334,13 @@ Exemplo ||: <br>
 • true || false = true; <br>
 • false || true = true; <br>
 
-const joao = true; <br>
-const manu = false; <br>
+`const joao = true;` <br>
+`const manu = false;` <br>
 
-console.log(joao || manu); // Resultado: true; <br>
-console.log(manu || joao); // Resultado: true; <br>
-console.log(joao || joao); // Resultado: true; <br>
-console.log(manu || manu); // Resultado: false; <br>
+`console.log(joao || manu);` Resultado: `true` <br>
+`console.log(manu || joao);` Resultado: `true` <br>
+`console.log(joao || joao);` Resultado: `true` <br>
+`console.log(manu || manu);` Resultado: `false` <br>
 
 Mais exemplos: <br>
 (Aqui resolvi dar um exemplo mais avançado pois ele se adequa melhor a questão de como costuma ser mais utilizado esse contexto das Pipes) <br>
@@ -359,47 +352,47 @@ Levando em consideração o mercado de trabalho, muitas vezez precisamos determi
 
 • Situação 1: Resultado true <br>
 
-//Aqui temos um objeto com o nome de sexualidade que nos trás dois valores BOOLEANOS, verdadeiro para masculino e falso para feminino <br>
-const sexualidade = { <br>
-    masculino: true, <br>
-    feminino: false, <br>
-}; <br>
+Aqui temos um objeto com o nome de sexualidade que nos trás dois valores BOOLEANOS, verdadeiro para masculino e falso para feminino <br>
+`const sexualidade = {` <br>
+    `masculino: true,` <br>
+    `feminino: false,` <br>
+`};` <br>
 
-//Denominei duas variáveis, uma com o nome de joao, e outra com o nome de manu. <br>
-//joao é masculino, logo, é verdadeiro <br>
-//manu é feminino, logo, é falso <br>
-const joao = sexualidade.masculino; // true <br>
-const manu = sexualidade.feminino; // false <br>
+Denominei duas variáveis, uma com o nome de joao, e outra com o nome de manu. <br>
+joao é masculino, logo, é verdadeiro <br>
+manu é feminino, logo, é falso <br>
+`const joao = sexualidade.masculino;` = `true` <br>
+`const manu = sexualidade.feminino;` = `false` <br>
 
-// E para nos mostrar o resultado no terminal temos mais um console.log com o Operador Lógico de || para identificar valores 0 e 1 / verdadeiro e falso. <br>
-console.log(joao || manu); // Resultado: true; Porque João é verdadeiro; <br>
+E para nos mostrar o resultado no terminal temos mais um console.log com o Operador Lógico de || para identificar valores 0 e 1 / verdadeiro e falso. <br>
+`console.log(joao || manu);` Resultado: true; Porque João é verdadeiro; <br>
 
 ---------------------------------------
 
 • Situação 2: Resultado true <br>
 
-const joao = sexualidade.feminino; // false <br>
-const manu = sexualidade.masculino; // true <br>
+`const joao = sexualidade.feminino;` = `false` <br>
+`const manu = sexualidade.masculino;` = `true` <br>
 
-console.log(joao || manu); // Resultado: true; Porque Manu é verdadeiro; <br>
+`console.log(joao || manu);` Resultado: true; Porque Manu é verdadeiro; <br>
 
 ---------------------------------------
 
 • Situação 3: Resultado false <br>
 
-const joao = sexualidade.feminino; // false <br>
-const manu = sexualidade.feminino; // false <br>
+`const joao = sexualidade.feminino;` = `false` <br>
+`const manu = sexualidade.feminino;` = `false` <br>
 
-console.log(joao || manu); // Resultado: false; Porque João e Manu são falsos; <br>
+`console.log(joao || manu);` Resultado: false; Porque João e Manu são falsos; <br>
 
 ---------------------------------------
 
 • Situação 4: Resultado true <br>
 
-const joao = sexualidade.feminino; // true <br>
-const manu = sexualidade.masculino; // true <br>
+`const joao = sexualidade.feminino;` = `true` <br>
+`const manu = sexualidade.masculino;` = `true` <br>
 
-console.log(joao || manu); // Resultado: true; Porque Joao e Manu são verdadeiros; <br>
+`console.log(joao || manu);` Resultado: true; Porque Joao e Manu são verdadeiros; <br>
 
 ---------------------------------------
 
@@ -418,15 +411,15 @@ OU <br>
 
 Se tivermos valores booleanos novamente, receberemos 0 ou 1 como resposta ao invés de true ou false. <br>
 
-const joao = true; <br>
-const manu = false; <br>
+`const joao = true;` <br>
+`const manu = false;` <br>
 
-console.log(joao | manu); // Resultado: 1 = true; <br>
-console.log(manu | joao); // Resultado: 1 = true; <br>
-console.log(joao | joao); // Resultado: 1 = true; <br>
-console.log(manu | manu); // Resultado: 0 = false; <br>
+`console.log(joao | manu);` Resultado: `1 = true;` <br>
+`console.log(manu | joao);` Resultado: `1 = true;` <br>
+`console.log(joao | joao);` Resultado: `1 = true;` <br>
+`console.log(manu | manu);` Resultado: `0 = false;` <br>
 
-// Observação, fora as condicionais de bit, em booleano, | também irá retornar o mesmo que ||, sendo necessário pelo menos um dos valores ser verdadeiro. <br>
+Observação, fora as condicionais de bit, em booleano, | também irá retornar o mesmo que ||, sendo necessário pelo menos um dos valores ser verdadeiro. <br>
 
 ---------------------------------------
 
@@ -436,15 +429,15 @@ Ele irá transformar o que é true, em false, e o que é false, em true. <br>
 Também podendo com: !! (dupla negação) transformar algo que é true, em true, ou algo que é false, em false <br>
 
 Exemplos: <br>
-const joao = true <br>
-const manu = false <br>
+`const joao = true` <br>
+`const manu = false` <br>
 <br>
-console.log(joao) // Resultado: true; <br>
-console.log(!joao) // Resultado: false; <br>
-console.log(!!joao) // Resultado: true; <br>
-console.log(manu) // Resultado: false; <br>
-console.log(!manu) // Resultado: true; <br>
-console.log(!!manu) // Resultado: false; <br>
+`console.log(joao);` Resultado: `true;` <br>
+`console.log(!joao);` Resultado: `false;` <br>
+`console.log(!!joao);` Resultado: `true;` <br>
+`console.log(manu);` Resultado: `false;` <br>
+`console.log(!manu);` Resultado: `true;` <br>
+`console.log(!!manu);` Resultado: `false;` <br>
 
 ---------------------------------------
 
@@ -455,8 +448,8 @@ console.log(!!manu) // Resultado: false; <br>
 Variáveis são como contêineres ou espaços de armazenamento na programação, usados para guardar e manipular dados. Elas são como "caixas" nomeadas onde você pode guardar diferentes tipos de informações, como números, texto, listas, objetos, entre outros. Imagine uma caixa onde você coloca algo dentro e pode alterar ou trocar seu conteúdo sempre que necessário. As variáveis funcionam de maneira similar na programação. Ao usar variáveis, você dá um nome a um pedaço de memória do computador para referenciar e manipular esses dados. Por exemplo, você pode ter uma variável chamada idade para armazenar a idade de uma pessoa.
 
 Exemplo: <br>
-const nome = joao <br>
-const idade = 23 <br>
+`const nome = joao` <br>
+`const idade = 23` <br>
 
 (Assim como já estávamos fazendo anteriormente); <br>
 
@@ -498,11 +491,11 @@ Já o null é um valor especial que representa a ausência intencional de um val
 Quando uma variável é declarada, mas nenhum valor é atribuído a ela, seu valor padrão é undefined. No entanto, quando você define explicitamente uma variável como null, está indicando que essa variável não possui nenhum valor ou referência a um objeto. <br>
 <br>
 Exemplos: <br>
-let exemploUndefined; <br>
-console.log(exemploUndefined); // Resultado: undefined <br>
+`let exemploUndefined;` <br>
+`console.log(exemploUndefined);` Resultado: `undefined` <br>
 
-let exemploNull = null; <br>
-console.log(exemploNull); // Resultado: null <br>
+`let exemploNull = null;` <br>
+`console.log(exemploNull);` Resultado: `null` <br>
 
 ---------------------------------------
 
@@ -534,18 +527,18 @@ PARTICULARIDADE DO JAVASCRIPT <br>
 JavaScript permite para nós termos um número entre aspas, ou seja, strings, e ainda assim conseguir identificar este como número para concluirmos a operação. <br>
 Exemplo de particulatidade: <br>
 
-console.log("10" / 2); // Resultado: 5 <br>
-console.log("20" / 2); // Resultado: 10 <br>
+`console.log("10" / 2);` Resultado: 5 <br>
+`console.log("20" / 2);` Resultado: 10 <br>
 
 Porém, caso coloquemos uma letra dentro das aspas, mesmo que ainda haja um número, não irá funcionar e retornará: NaN <br>
 Exemplo: <br>
-console.log("20w" * 5); <br>
+`console.log("20w" * 5);` <br>
 
 Outro ponto importante: Caso utilizarmos um número em strings " " e um número para fazer alguma operação, se fizermos uma soma utilizando + o JavaScript não irá consider <br>
 a soma, e sim apenas adicionar o número em strings em frente ao número real <br>
 Exemplo: <br>
 
-console.log("20" + 5); // Resultado: 205 <br>
+`console.log("20" + 5);` Resultado: 205 <br>
 
 ---------------------------------------
 
@@ -556,11 +549,11 @@ Para entendermos as estruturas condicionais, primeiro precisamos entender o que 
 Blocos de códigos são definidos por todo ou qualquer código que esteja dentro de chaves { }
 <br>
 Exemplo: <br>
-{ <br>
+`{` <br>
 isso é um bloco de código <br>
 tudo que estiver dentro de abertura e fechamento de chaves <br>
 é bem simples <br>
-} <br>
+`}` <br>
 
 ---------------------------------------
 
@@ -575,18 +568,17 @@ O caminho para isso seria algo semelhante a isso aqui: Start -> Condição (true
 ![image](https://github.com/Joaocosmala/Estudos_backend/assets/78692465/ae8562ef-a625-4b53-bf82-eeab3e0091e6)
 
 Exemplo: <br>
-let resultado; <br>
-const numero = 10; <br>
+`let resultado;` <br>
+`const numero = 10;` <br>
 
-if (numero >= 0 && numero < 9) { <br>
-resultado = "Número maior ou igual a 0 e menor que 9"; <br>
-} else if (numero >= 10 && numero < 33) { <br>
-resultado = "Número maior ou igual a 10 e menor do que 33"; <br>
-} else { <br>
-resultado = "Número maior do que 32"; <br>
-}; <br>
-
-console.log(resultado);
+`if (numero >= 0 && numero < 9) {` <br>
+`resultado = "Número maior ou igual a 0 e menor que 9";` <br>
+`} else if (numero >= 10 && numero < 33) {` <br>
+`resultado = "Número maior ou igual a 10 e menor do que 33";` <br>
+`} else {` <br>
+`resultado = "Número maior do que 32";` <br>
+`};` <br>
+`console.log(resultado);`
 
 ---------------------------------------
 
@@ -595,9 +587,9 @@ Este aqui é o que já aprendemos sobre variáveis anteriormente <br>
 -> Variáveis <br>
 Variáveis são maneiras de armazenarmos informações para que possamos usar novamente no futuro <br>
 
-var nome1 = "João"; <br>
-let nome2 = "Manu"; <br>
-const nome3 = "Shake" <br>
+`var nome1 = "João"` <br>
+`let nome2 = "Manu"` <br>
+`const nome3 = "Shake"` <br>
 
 Porém, devemos entender agora o que é um escopo global, local ou em bloco/block.
 <br>
@@ -605,20 +597,20 @@ Vamos pegar de referência os seguintes códigos: <br>
 Código 1:
 <br>
 
-const media = 10; <br>
-if (media > 9) { <br>
-    var resultado = "TESTE OK"; <br>
-} <br>
-console.log(resultado); // Resultado: TESTE OK. (está correto!) -> var;
+`const media = 10;` <br>
+`if (media > 9) {` <br>
+    `var resultado = "TESTE OK";` <br>
+`}` <br>
+`console.log(resultado);` Resultado: TESTE OK. (está correto!) -> var;
 <br>
 Porém, se: <br>
 Código 2: <br>
 
-const mediaDois = 10;
-if (mediaDois > 9) {
-    let resultadoUm = "TESTE OK";
-} <br>
-console.log(resultadoUm); // Resultado: Retornará erro, resultadoUm is not defined -> let;
+`const mediaDois = 10;`
+`if (mediaDois > 9) {`
+    `let resultadoUm = "TESTE OK";`
+`}` <br>
+`console.log(resultadoUm);` Resultado: Retornará erro, resultadoUm is not defined -> let;
 <br>
 
 Isso acontece porque resultadoUm está dentro do bloco de código. A variável existe, mas seu valor nunca foi utilizado.
@@ -627,20 +619,20 @@ Isso acontece porque resultadoUm está dentro do bloco de código. A variável e
 E isso também acontece quando usamos const <br>
 Código 3: <br>
 
-const mediaTres = 10; <br>
-if (mediaTres > 9) { <br>
-    const resultadoDois = "TESTE OK"; <br>
-}
-console.log(resultadoDois); // Resultado: Retornará erro, resultadoDois is not defined -> const; <br>
-Isso acontece porque resultadoUm está dentro do bloco de código. A variável existe, mas seu valor nunca foi utilizado.
+`const mediaTres = 10;` <br>
+`if (mediaTres > 9) {` <br>
+    `const resultadoDois = "TESTE OK";` <br>
+`}`
+`console.log(resultadoDois);` Resultado: Retornará erro, resultadoDois is not defined -> const; <br>
 
+Isso acontece porque resultadoUm está dentro do bloco de código. A variável existe, mas seu valor nunca foi utilizado.
 Então para conseguirmos ter o resultado que buscamos mostrado na tela, precisamos colocar nosso console.log(); dentro do nosso bloco aonde está a variável que buscamos.
 
-const mediaQuatro = 10; <br>
-if (mediaQuatro > 9) { <br>
-    const resultadoTres = "TESTE OK"; <br>
-    console.log(resultadoTres); // Agora está tudo dentro do mesmo bloco!! <br>
-};
+`const mediaQuatro = 10;` <br>
+`if (mediaQuatro > 9) {` <br>
+    `const resultadoTres = "TESTE OK";` <br>
+    `console.log(resultadoTres);` Agora está tudo dentro do mesmo bloco!! <br>
+`};`
 <br>
 <table>
     <tr>
@@ -749,68 +741,68 @@ Isso não significa que sejam estritamente iguais a true, mas são interpretados
 Alguns exemplos de valores truthy são: true, números diferentes de zero (1, 2.5, -1), strings não vazias ("hello"), arrays e objetos não vazios, e até mesmo certos objetos vazios que são considerados truthy.
 
 #### Exemplos de valores truthy:
-if ("hello") { <br>
-    // Este bloco será executado, pois a string "hello" é truthy <br>
-} <br>
+`if ("hello") {` <br>
+    `Este bloco será executado, pois a string "hello" é truthy` <br>
+`}` <br>
 
 Falsy: São estes valores que são considerados como falsos em um contexto booleano.
 Assim como com "truthy", isso não significa que sejam estritamente iguais a false, mas são interpretados como falsos.
 Alguns exemplos de valores falsy são: false, 0, null, undefined, NaN, strings vazias (""), null e undefined.
 
 #### Exemplos de valores Falsy:
-if (0) { <br>
-    // Este bloco NÃO será executado, pois o valor 0 é falsy <br>
-} <br>
+`if (0) {` <br>
+     `Este bloco NÃO será executado, pois o valor 0 é falsy` <br>
+`}` <br>
 
 É importantíssimo entender estes conceitos quando trabalhar com condicionais em JavaScript, pois às vezes valores inesperados podem ser avaliados como verdadeiros ou falsos.
 O que pode afetar a lógica do programa. O conhecimento sobre valores truthy e falsy é útil para escrever código mais conciso e compreensível.
 
 Outros exemplos:
 
-if (true) { <br>
-    console.log("true é truthy"); <br>
-} <br>
-// Resultado: true é truthy
+`if (true) {` <br>
+    `console.log("true é truthy");` <br>
+`}` <br>
+`Resultado: true é truthy`
 
 
-if ("testando qualquer coisa") { <br>
-    console.log("testando qualquer coisa é truthy"); <br>
-} <br>
-// Resultado: testando qualquer coisa é truthy
+`if ("testando qualquer coisa") {` <br>
+    `console.log("testando qualquer coisa é truthy");` <br>
+`}` <br>
+`Resultado: testando qualquer coisa é truthy`
 
 
-if ("") { <br>
-    console.log("Aspas duplas vazias é truthy"); <br>
-} else { <br>
-    console.log("Aspas duplas vazias é falsy"); <br>
-} <br>
-// Resultado: Aspas duplas vazias é falsy
+`if ("") {` <br>
+    `console.log("Aspas duplas vazias é truthy");` <br>
+`} else {` <br>
+    `console.log("Aspas duplas vazias é falsy");` <br>
+`}` <br>
+`Resultado: Aspas duplas vazias é falsy`
 
 
-if (0) { <br>
-    console.log("0 é truthy"); <br>
-} else { <br>
-    console.log("0 é falsy"); <br>
-} <br>
-// Resultado: 0 é falsy
+`if (0) {` <br>
+    `console.log("0 é truthy");` <br>
+`} else {` <br>
+    `console.log("0 é falsy");` <br>
+`}` <br>
+`Resultado: 0 é falsy`
 
 <br>
 
-if (-0) { <br>
-    console.log("0 é truthy"); <br>
-} else { <br>
-    console.log("0 é falsy"); <br>
-} <br>
-// Resultado: -0 é falsy
+`if (-0) {` <br>
+    `console.log("0 é truthy");` <br>
+`} else {` <br>
+    `console.log("0 é falsy");` <br>
+`}` <br>
+`Resultado: -0 é falsy`
 
 
-let alistamento; <br>
-if (alistamento) { <br>
-    console.log("Este rapaz se alistou no exército"); <br>
-} else { <br>
-    console.log("Este rapaz ainda não se alistou no exército"); <br>
-} <br>
-// Resultado: Falsy, porque let alistamento é undefined;
+`let alistamento;` <br>
+`if (alistamento) {` <br>
+    `console.log("Este rapaz se alistou no exército");` <br>
+`} else {` <br>
+    `console.log("Este rapaz ainda não se alistou no exército");` <br>
+`}` <br>
+`Resultado: Falsy, porque let alistamento é undefined;`
 
 ---------------------------------------
 
@@ -819,36 +811,36 @@ Os operadores ternários são uma forma concisa e eficiente de escrever express�
 
 Em JavaScript, o operador ternário tem a seguinte estrutura: <br>
 
-condição ? valorSeVerdadeiro : valorSeFalso; <br>
+`condição ? valorSeVerdadeiro : valorSeFalso;` <br>
 
 Condição: Uma expressão que é avaliada como verdadeira ou falsa. <br>
 valorSeVerdadeiro: Valor retornado se a condição for verdadeira. <br>
 valorSeFalso: Valor retornado se a condição for falsa. <br>
 
 Exemplo: <br>
-let idade = 20; <br>
-let status = (idade >= 18) ? 'Adulto' : 'Menor'; <br>
-console.log(status); // Saída: 'Adulto' <br>
+`let idade = 20;` <br>
+`let status = (idade >= 18) ? 'Adulto' : 'Menor';` <br>
+`console.log(status);` Saída: 'Adulto' <br>
 
 Neste exemplo se a condição (idade >= 18) for verdadeira, a variável status receberá o valor 'Adulto'; caso contrário, receberá 'Menor'. <br>
 Os operadores ternários são úteis em situações em que você precisa atribuir um valor com base em uma condição simples, evitando a necessidade de escrever blocos if...else mais longos. No entanto, o uso excessivo de operadores ternários em expressões complexas pode dificultar a leitura do código, portanto, é importante usar com moderação para manter a clareza e a legibilidade. <br>
 
 
 Outros exemplos: <br>
-const media = 10; <br>
-let resultado; <br>
+`const media = 10;` <br>
+`let resultado;` <br>
 
-if (media >= 7) { <br>
-resultado = "Aprovado"; <br>
-} else { <br>
-resultado = "Reprovado"; <br>
-}; <br>
-console.log(resultado); <br>
-Resultado: Aprovado <br>
+`if (media >= 7) {` <br>
+`resultado = "Aprovado";` <br>
+`} else {` <br>
+`resultado = "Reprovado";` <br>
+`};` <br>
+`console.log(resultado);` <br>
+`Resultado: Aprovado` <br>
 
 Agora se usarmos o operador ternário para fazer a mesma função, teremos algo semelhante a isso: <br>
 
-resultado = media >= 7 ? "Aprovado" : "Reprovado"; <br>
+`resultado = media >= 7 ? "Aprovado" : "Reprovado";` <br>
 
 O "?" simboliza o if (se), então caso seja maior que 7, então Aprovado, senão, Reprovado qualquer coisa abaixo de 7 <br>
 
@@ -870,17 +862,17 @@ Swtich Case: <br>
 O switch em JavaScript é uma estrutura de controle que permite avaliar uma expressão em comparação com vários casos. Dependendo do valor da expressão, o código executa diferentes blocos de código. <br>
 
 A estrutura básica do switch é a seguinte: <br>
-switch (expressao) { <br>
-  case valor1: <br>
-    // Código a ser executado se expressao for igual a valor1 <br>
-    break; <br>
-  case valor2: <br>
-    // Código a ser executado se expressao for igual a valor2 <br>
-    break; <br>
-  // ... <br>
-  default: <br>
-    // Código a ser executado se nenhum caso corresponder a expressao <br>
-} <br>
+`switch (expressao) {` <br>
+  `case valor1:` <br>
+        `Código a ser executado se expressao for igual a valor1` <br>
+    `break;` <br>
+  `case valor2:` <br>
+        `Código a ser executado se expressao for igual a valor2` <br>
+    `break;` <br>
+  `// ...` <br>
+  `default:` <br>
+        `Código a ser executado se nenhum caso corresponder a expressao` <br>
+`}` <br>
 
 A partir disso também temos outras condições para utilizarmos junto ao Switch Case. <br>
 
@@ -901,29 +893,29 @@ Cada case representa um valor específico que a expressão pode ter. Se a expres
 Exemplos: <br>
 Utilizando exemplos com if para demonstração: <br>
 
-const nome = "Manu"; <br>
-if (nome == "João") { <br>
-    console.log("O nome é João"); <br>
-} else if (nome === "Manu") { <br>
-    console.log("O nome é Manu"); <br>
-} else { <br>
-    console.log("Sem nome na lista"); <br>
-}; <br>
+`const nome = "Manu";` <br>
+`if (nome == "João") {` <br>
+    `console.log("O nome é João");` <br>
+`} else if (nome === "Manu") {` <br>
+    `console.log("O nome é Manu");` <br>
+`} else {` <br>
+    `console.log("Sem nome na lista");` <br>
+`};` <br>
 
 
-Utilizando Swtich Case: <br>
-const nomeDois = "Pitoco"; <br>
+`Utilizando Swtich Case:` <br>
+`const nomeDois = "Pitoco";` <br>
 
-switch(nomeDois) { <br>
-    case "Shake" : // Case === caso, se... Exemplo: Caso for... então... semelhante ao uso do if e else e else if <br>
-        console.log("O nome é Shake"); <br>
-        break; // Adicionamos o break para que o cósigo não continue correndo para as próximas linhas <br>
-        case "Pitoco" : <br>
-            console.log("O nome é Pitoco"); <br>
-            break; <br>
-            default : <br>
-            console.log("Sem nome na lista"); <br>
-}; <br>
+`switch(nomeDois) {` <br>
+    `case "Shake" :` -> Case === caso, se... Exemplo: Caso for... então... semelhante ao uso do if e else e else if <br>
+        `console.log("O nome é Shake");` <br>
+        `break;` -> Adicionamos o break para que o cósigo não continue correndo para as próximas linhas <br>
+        `case "Pitoco" :` <br>
+            `console.log("O nome é Pitoco");` <br>
+            `break;` <br>
+           `default :` <br>
+            `console.log("Sem nome na lista");` <br>
+`};` <br>
 
 ---------------------------------------
 
@@ -947,31 +939,31 @@ Aqui abaixo citarei os principais e demonstrarei exemplos em seguida. <br>
 A declaração do tipo While cria um laço que executa especificamente enquanto a condição de teste for avaliada como verdadeira. Sendo assim a condição avaliada antes da execução da rotina. <br>
 
 Exemplos while: <br>
-let n = 0; <br>
-let x = 0; <br>
+`let n = 0;` <br>
+`let x = 0;` <br>
 
-while (n < 3) { // Se n for menor que 3 (lembrando que n é 0) <br>
-    n++; // Então adicionamos 1 n a mais <br>
-    console.log(x); <br>
-}; <br>
+`while (n < 3) {` -> Se n for menor que 3 (lembrando que n é 0) <br>
+    `n++;` -> Então adicionamos 1 n a mais <br>
+    `console.log(x);` <br>
+`};` <br>
 
 -> Do 0 até 10 <br>
-let number = 0; <br>
-while (number <= 9) { <br>
-    number++; <br>
-    console.log(number); <br>
-} <br>
-Resultado: 0 até 10 <br>
+`let number = 0;` <br>
+`while (number <= 9) {` <br>
+    `number++;` <br>
+    `console.log(number);` <br>
+`}` <br>
+`Resultado: 0 até 10` <br>
 
-// --------------------------------------- <br>
+---------------------------------------
 
 -> Do 300 até 0 <br>
-let numeroMaximo = 300 <br>
-while (numeroMaximo > 0) { <br>
-    numeroMaximo-- <br>
-    console.log(numeroMaximo); <br>
-} <br>
-Resultado: 300 Até 0 <br>
+`let numeroMaximo = 300` <br>
+`while (numeroMaximo > 0) {` <br>
+    `numeroMaximo--` <br>
+    `console.log(numeroMaximo);` <br>
+`}` <br>
+`Resultado: 300 Até 0` <br>
 
 ---------------------------------------
 
@@ -979,24 +971,23 @@ Resultado: 300 Até 0 <br>
 A declaração do tipo do while cria um laço de repetição que executa uma declaração até que o teste da condição for false (false). A condição é avaliada depois que o bloco de código é executado, resultando que uma declaração seja executada pelo menos uma vez. <br>
 
 Exemplos de do while: <br>
-let resultado = ""; <br>
-let i = 0; <br>
-do { <br>
-i += 1; <br>
-resultado += i + " "; <br>
-} while (i < 5); <br>
+`let resultado = "";` <br>
+`let i = 0;` <br>
+`do {` <br>
+`i += 1;` <br>
+`resultado += i + " ";` <br>
+`} while (i < 5);` <br>
+`console.log(resultado);` <br>
 
-console.log(resultado); <br>
+---------------------------------------
 
-// --------------------------------------- <br>
-
-let resultadoDois = ""; <br>
-let i = 0; <br>
-do { <br>
-    i++; <br>
-    resultadoDois += i + ""; <br>
-} while (i < 5); <br>
-console.log(resultadoDois); <br>
+`let resultadoDois = "";` <br>
+`let i = 0;` <br>
+`do {` <br>
+    `i++;` <br>
+    `resultadoDois += i + "";` <br>
+`} while (i < 5);` <br>
+`console.log(resultadoDois);` <br>
 
 A estrutura do while é semelhante ao if, porém, a sintaxe do "do while" é um pouco diferente. <br>
 
@@ -1008,14 +999,14 @@ for é uma das estruturas de repetição mais usadas e mais conhecidas, também 
 
 Exemplo: <br>
 -> Contando de 0 a 20 <br>
-for (var i = 0; i < 20; i++) { <br>
-console.log(i); <br>
-}; // Resultado: 0 a 20 <br>
+`for (var i = 0; i < 20; i++) {` <br>
+`console.log(i);` <br>
+`};` Resultado: 0 a 20 <br>
 
 -> Contando de 0 a 10 <br>
-for (let e = 0; e <= 10; e++) { <br>
-    console.log(e); <br>
-}; // Resultado: 0 a 10 <br>
+`for (let e = 0; e <= 10; e++) {` <br>
+    `console.log(e);` <br>
+`};` Resultado: 0 a 10 <br>
 
 ---------------------------------------
 
@@ -1024,36 +1015,36 @@ O Loop for of percorre objetos iterativos, chamando uma função personalizada c
 A estrutura do for of se utiliza de um array. <br>
 
 Exemplos: <br>
-let iterable = [10, 20, 30]; <br>
-    for (let value of iterable) { <br>
-    console.log(value); <br>
-}; Resultado: 10, 20, 30 <br>
+`let iterable = [10, 20, 30];` <br>
+    `for (let value of iterable) {` <br>
+    `console.log(value);` <br>
+`};` Resultado: 10, 20, 30 <br>
 
-// --------------------------------------- <br>
+---------------------------------------
 
 A estrutura do for of se utiliza de um array para percorrer uma lista de nomes, números ou o que precisar. <br>
 
-const peoples = [ <br>
-    "Bruno", <br>
-    "Marco", <br>
-    "Pedro", <br>
-    "Nadia", <br>
-    "Isa", <br>
-]; <br>
+`const peoples = [` <br>
+    `"Bruno",` <br>
+    `"Marco",` <br>
+    `"Pedro",` <br>
+    `"Nadia",` <br>
+    `"Isa",` <br>
+`];` <br>
 
-for (let people of peoples) { <br>
-    console.log(people); <br>
-}; Resultado: Bruno, Marco, Pedro, Nadia, Isa. <br>
+`for (let people of peoples) {` <br>
+    `console.log(people);` <br>
+`};` Resultado: Bruno, Marco, Pedro, Nadia, Isa. <br>
 
 Ele retorna para nós os dados que estão dentro deste array, no caso, os nomes postos. <br>
 
-// --------------------------------------- <br>
+---------------------------------------
 
 Porém, também é possível escrever este mesmo código ainda usando o que vimos até agora sobre o for padrão. <br>
 
-for(let i = 0; i < peoples.length; i++ ) { <br>
-    console.log(peoples[i]); <br>
-}; <br>
+`for(let i = 0; i < peoples.length; i++ ) {` <br>
+    `console.log(peoples[i]);` <br>
+`};` <br>
 
 Ele ainda irá percorrer a lista de nomes, mesmo que o código seja escrito de outra maneira. <br>
 
@@ -1067,87 +1058,87 @@ Entre as princípais características das funções estão: <br>
 ### Reutilização de Código:
 As funções permitem definir um bloco de código que pode ser chamado várias vezes em diferentes partes do programa, evitando a repetição do mesmo código. <br>
 
-// ---------------------------------------
+---------------------------------------
 
 ### Nomeação:
 As funções podem ter um nome que as identifica, permitindo referenciar e chamar a função pelo nome em qualquer parte do código. <br>
 
-// ---------------------------------------
+---------------------------------------
 
 ### Parâmetros e Argumentos:
 Podem receber valores chamados de parâmetros quando são definidas e valores chamados de argumentos quando são chamadas. <br>
 Esses valores permitem que as funções sejam flexíveis e capazes de lidar com diferentes inputs. <br>
 
-// ---------------------------------------
+---------------------------------------
 
 ### Retorno de Valores:
 Podem retornar um valor de volta para a parte do código que chamou a função. <br>
 O return é usado para especificar o valor que a função deve produzir como resultado. <br>
 
-// ---------------------------------------
+---------------------------------------
 
 ### Escopo:
 As variáveis definidas dentro de uma função têm um escopo local, o que significa que não podem ser acessadas fora da função, a menos que sejam explicitamente retornadas. <br>
 
-// --------------------------------------- 
+--------------------------------------- 
 
 ### Declaração e Expressão de Funções:
 Podem ser declaradas utilizando a palavra-chave function ou podem ser expressas como funções anônimas (atribuídas a variáveis ou passadas como argumentos). <br>
 
---------------------------------------- <br>
+---------------------------------------
 
 ## Como utilizar funções:
 
 - Exemplo de função sem parâmetro: <br>
-function mostrarNome( ) { <br>
-    console.log("João"); <br>
-}; <br>
-mostrarNome( ); Resultado: João. <br>
+`function mostrarNome( ) {` <br>
+    `console.log("João");` <br>
+`};` <br>
+`mostrarNome( );` Resultado: João. <br>
 
-// --------------------------------------- <br>
+---------------------------------------
 
 - Exemplo de função com parâmetro: <br>
-function mostrarAlgumNome(name) { <br>
-    console.log(name); <br>
-}; <br>
-mostrarAlgumNome("João"); Este é o parâmetro que eu quero que apareça. <br>
+`function mostrarAlgumNome(name) {` <br>
+    `console.log(name);` <br>
+`};` <br>
+`mostrarAlgumNome("João");` Este é o parâmetro que eu quero que apareça. <br>
 
-// --------------------------------------- <br>
+---------------------------------------
 
-- Mais exemplos de funções: <br>
+Mais exemplos de funções: <br>
 
 -> Sem parâmetro: <br>
-function showMyName() { <br>
-    console.log("João"); <br>
-  }; <br>
-showMyName(); <br>
+`function showMyName() {` <br>
+    `console.log("João");` <br>
+  `};` <br>
+`showMyName();` <br>
 
 
 -> Com parâmetro: <br>
-function showRandomName(name) { <br>
-    console.log(name); <br>
-}; <br>
-showRandomName("João"); <br>
-showRandomName("Paulo"); <br>
-showRandomName("Sebastião"); <br>
-showRandomName("Carolina"); <br>
-showRandomName("Manu"); <br>
+`function showRandomName(name) {` <br>
+    `console.log(name);` <br>
+`};` <br>
+`showRandomName("João");` <br>
+`showRandomName("Paulo");` <br>
+`showRandomName("Sebastião");` <br>
+`showRandomName("Carolina");` <br>
+`showRandomName("Manu");` <br>
 Resultado: João, Paulo, Sebastião, Carolina, Manu. <br>
 
 Observe que passamos quantos parâmetros forem necessários. <br>
 
-// --------------------------------------- <br>
+---------------------------------------
 
 Agora para variarmos um pouco na utilização de exemplos, vamos criar uma função que faz a soma de 3 ou mais números: <br>
 
 Exemplo: <br>
-function somarNumeros(numero1, numero2, numero3, numero4) { <br>
-    console.log("O Resultado da soma de todos os números é: ", numero1 + numero2 + numero3 + numero4); <br>
-}; <br>
-somarNumeros(10, 48, 39, 64); <br>
+`function somarNumeros(numero1, numero2, numero3, numero4) {` <br>
+    `console.log("O Resultado da soma de todos os números é: ", numero1 + numero2 + numero3 + numero4);` <br>
+`};` <br>
+`somarNumeros(10, 48, 39, 64);` <br>
 Resultado: 161; <br>
 
---------------------------------------- <br>
+---------------------------------------
 
 # Funções com Return:
 As funções com return em JavaScript são blocos de código que executam uma tarefa específica e retornam um valor como resultado. <br>
@@ -1157,64 +1148,64 @@ Estas são as principais caracteristícas: <br>
 As funções são usadas para agrupar um conjunto de instruções que realizam uma tarefa particular. <br>
 Essas tarefas podem ser desde cálculos simples até processamentos mais complexos. <br>
 
-// --------------------------------------- <br>
+---------------------------------------
 
 ### Palavra-chave return:
 O return é usado para especificar o valor que a função deve produzir como resultado quando ela é chamada. <br>
 Essa declaração interrompe a execução da função e retorna imediatamente o valor especificado. <br>
 
-// --------------------------------------- <br>
+---------------------------------------
 
 ### Valores de Retorno:
 As funções podem retornar qualquer tipo de valor em JavaScript, como strings, números, objetos, arrays ou até mesmo valores booleanos (verdadeiro ou falso). <br>
 
-// --------------------------------------- <br>
+---------------------------------------
 
 ### Utilidade em Operações e Avaliações:
 O return é útil para retornar resultados de operações matemáticas, processamento de dados, validações condicionais ou qualquer lógica que produza um resultado a ser utilizado em outro lugar do código. <br>
 
 
 Exemplo: <br>
-function soma(a, b) { <br>
-  return a + b; <br>
-} <br>
+`function soma(a, b) {` <br>
+  `return a + b;` <br>
+`}` <br>
 
-let resultado = soma(3, 5); <br>
-console.log(resultado); <br>
+`let resultado = soma(3, 5);` <br>
+`console.log(resultado);` <br>
 Resultado: 8 <br>
 
-// --------------------------------------- <br>
+---------------------------------------
 
 Mais Exemplos: <br>
-function somarAllNumeros(n1, n2, n3, n4) { <br>
-    const somatoria = n1 + n2 + n3 + n4; <br>
-    console.log(somatoria); <br>
-}; <br>
-somarAllNumeros(20, 40, 238, 127); <br>
+`function somarAllNumeros(n1, n2, n3, n4) {` <br>
+    `const somatoria = n1 + n2 + n3 + n4;` <br>
+    `console.log(somatoria);` <br>
+`};` <br>
+`somarAllNumeros(20, 40, 238, 127);` <br>
 Resultado: 425 <br>
 
-// --------------------------------------- <br>
+---------------------------------------
 
 Outros exemplos: <br>
 Neste exemplo agora estamos utilizando de funções com return para criar uma função que retorna a media dos 4 números dispostos. <br>
-function somarTodos(n1, n2, n3, n4) { <br>
-    const somandoNumbers = n1 + n2 + n3 + n4; <br>
-    return somandoNumbers; <br>
-}; <br>
+`function somarTodos(n1, n2, n3, n4) {` <br>
+    `const somandoNumbers = n1 + n2 + n3 + n4;` <br>
+    `return somandoNumbers;` <br>
+`};` <br>
 
-function media(somandoNumbers) { <br>
-    const estudanteMedia = somandoNumbers / 4; <br>
-    return estudanteMedia <br>
-}; <br>
+`function media(somandoNumbers) {` <br>
+    `const estudanteMedia = somandoNumbers / 4;` <br>
+    `return estudanteMedia` <br>
+`};` <br>
 
-const scoreDoEstudante = somarTodos(10, 10, 10, 10); <br>
-if (media(scoreDoEstudante) === 10) { <br>
-    console.log("Você é fera!!!!!!!!"); <br>
-} else if (media(scoreDoEstudante) <= 5 ) { <br>
-    console.log("Sinto muito, mas está de recuperação."); <br>
-} else { <br>
-    console.log("Passou!!!!"); <br>
-} <br>
+`const scoreDoEstudante = somarTodos(10, 10, 10, 10);` <br>
+`if (media(scoreDoEstudante) === 10) {` <br>
+    `console.log("Você é fera!!!!!!!!");` <br>
+`} else if (media(scoreDoEstudante) <= 5 ) {` <br>
+    `console.log("Sinto muito, mas está de recuperação.");` <br>
+`} else {` <br>
+    `console.log("Passou!!!!");` <br>
+`}` <br>
 
 ---------------------------------------
 
@@ -1223,25 +1214,25 @@ Array se assemelham a listas. É um objeto global que é muito útil quando é p
 Você pode armazenar diversas informações dento de uma variável. <br>
 
 Observação: Em Arrays, a contagem de números não se inicia do 1, mas sim do 0 <br>
-const listaNomes = [ <br>
-    "Pedro", // 0 <br>
-    "Fabiana", // 1 <br>
-    "Marcelo", // 2 <br>
-    "Isadora", // 3 <br>
-    "Marlene", // 4  <br>
-    "Renato", // 5 <br>
-    // Total de itens no Array: 6 <br>
-]; <br>
-console.log(listaNomes); Resultado: (6), Pedro, Fabiana, Marcelo, Isadora, Marlene, Renato; <br>
-console.log(listaNomes.length); Resultado: 6 (Ele trará a quantidade de itens que está no array); <br>
-console.log(listaNomes[3]); Resultado: Isadora (Trará o terceiro nome que está na lista); <br>
-console.log(listaNomes[7]); Resultado: Undefined pois a posição número 7 não existe em nosso array; <br>
+`const listaNomes = [` <br>
+    `"Pedro",` -> 0 <br>
+    `"Fabiana",` -> 1 <br>
+    `"Marcelo",` -> 2 <br>
+    `"Isadora",` -> 3 <br>
+    `"Marlene",` -> 4  <br>
+    `"Renato",` -> 5 <br>
+    -> Total de itens no Array: 6 <br>
+`];` <br>
+`console.log(listaNomes);` Resultado: (6), Pedro, Fabiana, Marcelo, Isadora, Marlene, Renato; <br>
+`console.log(listaNomes.length);` Resultado: 6 (Ele trará a quantidade de itens que está no array); <br>
+`console.log(listaNomes[3]);` Resultado: Isadora (Trará o terceiro nome que está na lista); <br>
+`console.log(listaNomes[7]);` Resultado: Undefined pois a posição número 7 não existe em nosso array; <br>
 
-console.log("Percorrendo o Array"); Percorrendo o Array <br>
-for (let listaNome of listaNomes) { <br>
-    console.log(listaNome); <br>
-}; <br>
+`console.log("Percorrendo o Array");` Percorrendo o Array <br>
+`for (let listaNome of listaNomes) {` <br>
+    `console.log(listaNome);` <br>
+`};` <br>
 
-console.log("Armazenando Números"); Armazenando Números <br>
-const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]; <br>
-console.log(numeros); // Resutado: (15) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15; <br>
+`console.log("Armazenando Números");` Armazenando Números <br>
+`const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];` <br>
+`console.log(numeros);` Resutado: (15) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15; <br>
