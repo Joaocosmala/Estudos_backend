@@ -1,4 +1,4 @@
-# • JavaScript Completo, ou quase...
+# • JavaScript Completo, ou quase... 😎🤯
 
 ---------------------------------------
 
@@ -403,9 +403,9 @@ Porém, também pode ser usado para realizar operações lógicas. No entanto, a
 Normalmente é usado em situações onde a manipulação de bits é necessária. <br>
 
 Exemplo: <br>
-let x = 5; // Em binário: 0101; <br>
-let y = 3; // Em binário: 0011; <br>
-let result = x | y; // Resultado: 7 (binário: 0111); <br>
+`let x = 5;` Em binário: 0101; <br>
+`let y = 3;` Em binário: 0011; <br>
+`let result = x | y;` Resultado: 7 (binário: 0111); <br>
 
 OU <br>
 
@@ -565,7 +565,27 @@ Exemplo: <br>
 Preciso que meu código faça x coisa, porém, caso aconteça y coisa, quero que ocorra z coisa. Se não, quero que retorne x coisa. Endenteu? São condições que precisamos atribuir com ações. <br>
 Essas condições também são baseadas como true ou false, por exemplo, quando determinada ação for true, faça x, quando for false, faça y. <br>
 O caminho para isso seria algo semelhante a isso aqui: Start -> Condição (true ou false) if true -> ação1 -> end, (if false) -> ação2 -> end. <br>
-![image](https://github.com/Joaocosmala/Estudos_backend/assets/78692465/ae8562ef-a625-4b53-bf82-eeab3e0091e6)
+
+<table>
+    <tr>
+        <td> TEST EXPRESSION </td>
+        <td> -----> </td>
+        <td> TRUE </td>
+        <td> -----> </td>
+        <td> BODY OF IF </td>
+        <td> -----> </td>
+        <td> STATEMENT JUST BELOW IF </td>
+    </tr>
+    <tr>
+        <td> TEST EXPRESSION </td>
+        <td> -----> </td>
+        <td> FALSE </td>
+        <td> -----> </td>
+        <td> ____________ </td>
+        <td> -----> </td>
+        <td> STATEMENT JUST BELOW IF </td>
+    </tr>
+</table>
 
 Exemplo: <br>
 `let resultado;` <br>
@@ -606,9 +626,9 @@ Código 1:
 Porém, se: <br>
 Código 2: <br>
 
-`const mediaDois = 10;`
-`if (mediaDois > 9) {`
-    `let resultadoUm = "TESTE OK";`
+`const mediaDois = 10;` <br>
+`if (mediaDois > 9) {` <br>
+    `let resultadoUm = "TESTE OK";` <br>
 `}` <br>
 `console.log(resultadoUm);` Resultado: Retornará erro, resultadoUm is not defined -> let;
 <br>
