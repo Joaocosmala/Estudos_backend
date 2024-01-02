@@ -1256,3 +1256,172 @@ Observação: Em Arrays, a contagem de números não se inicia do 1, mas sim do 
 `console.log("Armazenando Números");` Armazenando Números <br>
 `const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];` <br>
 `console.log(numeros);` Resutado: (15) 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15; <br>
+
+---------------------------------------
+
+### Propriedades e Métodos de Arrays
+• length -> Retorna o tamanho do Array <br>
+• filter -> Filtra um Array baseado em uma condição <br>
+• find -> Encontra um elemento dentro do Array baseado em uma condição <br>
+• findIndex -> Encontra o índice de um elemento dentro do Array <br>
+• forEach -> Cria um Loop para percorrer as opções do Array <br>
+• map -> Percorre todas as opções do Array <br>
+• push -> Adiciona um novo elemento ao Array <br>
+• pop -> Remove o último item do Array <br>
+• splice -> Remove um item específico do Array <br>
+• reverse -> Inverte a posição dos elementos do Array <br>
+
+---------------------------------------
+
+Array:
+`const pessoas = ["João", "Pedro", "Steh", "Maysa", "Théo", "Aurora" ];` <br>
+
+### Console.log(pessoas):
+Observando itens do Array: <br>
+`console.log(pessoas);` <br>
+Resultado: (6) ["João", "Pedro", "Steh", "Maysa", "Théo", "Aurora" ] <br>
+
+---------------------------------------
+
+### LENGTH:
+`console.log("Utilização do Length: ", pessoas.length);` <br>
+Resultado: Utilização do Length:  6 <br>
+
+---------------------------------------
+
+### [ ]
+Filtrando itens específicos do Array [ ]: <br>
+`console.log("Posição no Array: ", pessoas[2]);` <br>
+Resultado: Posição no Array:  Steh <br>
+(Lembrando que Array se inicia contando do 0, logo, ele passou por João que é 0 e Pedro que é 1 para chegar em Steh que é 2) <br>
+
+Adicionando Matheus: <br>
+`pessoas.push("Matheus");` <br>
+`console.log("Adicionando Matheus ao Array: ", pessoas[6]);` <br>
+Resultado: Adicionando Matheus ao Array: Matheus (Na posição 6) <br>
+
+---------------------------------------
+
+### POP
+Removendo o último item do Array <br>
+`pessoas.pop();` <br>
+`console.log("Removendo o último elemento do Array: ", pessoas[6]); // Resultado: Undefined (Mateheus foi removido do Array);` <br>
+
+---------------------------------------
+
+`const videogames = ["Playstation 1", "Playstation 2", "Nintendo 64", "Super Nintendo", "Master System", "PSP", "Xbox 360", "Xbox One", "Xbox Series X"];` <br>
+`console.log(videogames);` <br>
+Resultado: (9) ["Playstation 1", "Playstation 2", "Nintendo 64", "Super Nintendo", "Master System", "PSP", "Xbox 360", "Xbox One", "Xbox Series X"] <br>
+
+### Reverse:
+Invertendo ordem do Array com reverse: <br>
+
+`videogames.reverse();` <br>
+`console.log(videogames);` <br>
+Resultado: (9) ['Xbox Series X', 'Xbox One', 'Xbox 360', 'PSP', 'Master System', 'Super Nintendo', 'Nintendo 64', 'Playstation 2', 'Playstation 1'] <br>
+
+---------------------------------------
+
+### ForEach:
+forEach irá percorrer todos os elementos do Array <br>
+Utilizando forEach com um callback retornando uma função: <br>
+
+`function posicoesDeLog(item) {` <br>
+    `console.log(item);` <br>
+`}` <br>
+`videogames.forEach(posicoesDeLog);` <br>
+Resultado: <br>
+Xbox Series X <br>
+Xbox One <br>
+Xbox 360 <br>
+PSP <br>
+Master System <br>
+Super Nintendo <br>
+Nintendo 64 <br>
+Playstation 2 <br>
+Playstation 1 <br>
+
+Agora fazendo a mesma coisa de uma maneira mais simplificada: <br>
+Utilizando forEach com um callback retornando uma função2 (Simplificada): <br>
+`videogames.forEach((item) => console.log(item));` <br>
+Resultado: <br>
+Xbox Series X <br>
+Xbox One <br> 
+Xbox 360 <br>
+PSP <br>
+Master System <br>
+Super Nintendo <br>
+Nintendo 64 <br>
+Playstation 2 <br>
+Playstation 1 <br>
+
+Map irá percorrer e retornar um novo Array cpm base no último Array manipulado ou selecionado para este. No caso, videogames <br>
+`const otherVideoGames = videogames.map((game) => game);` <br>
+`console.log(otherVideoGames);` <br>
+Resultado: (9) ['Xbox Series X', 'Xbox One', 'Xbox 360', 'PSP', 'Master System', 'Super Nintendo', 'Nintendo 64', 'Playstation 2', 'Playstation 1'] <br>
+
+---------------------------------------
+
+`const marcasTecnologia = ["Apple", "Microsoft", "IBM", "Lenovo", "Dell", "Acer", "Sony"];` <br>
+`console.log(marcasTecnologia);` <br>
+Resultado: (7) ["Apple", "Microsoft", "IBM", "Lenovo", "Dell", "Acer", "Sony"]; <br>
+
+### FIND: 
+Utilizando find para encontrar um nome específico dentro do Array <br>
+
+`const posicaoIBM = marcasTecnologia.find((item) =>  item === "IBM");` <br>
+`console.log(posicaoIBM);` <br>
+Resultado: IBM <br>
+
+`const posicaoMicrosoft = marcasTecnologia.find((item) =>  item === "Microsoft");` <br>
+`console.log(posicaoMicrosoft);` <br>
+Resultado: Microsoft <br>
+
+Porém se passarmos um nome que não existe, então retornará Undefined <br>
+`const posicaoNomeInexistente = marcasTecnologia.find((item) =>  item === "Gucci");` <br>
+`console.log(posicaoNomeInexistente);` <br>
+Resultado: Undefined <br>
+
+---------------------------------------
+
+### FINDINDEX:
+Buscando a posição do index <br>
+
+findIndex: <br>
+`const posicaoNoIndex = marcasTecnologia.findIndex((item) => item === "IBM");` <br>
+`console.log(posicaoNoIndex);` <br>
+Resultado: 2 (Pois IBM está na posição 2); <br>
+
+Buscando posição inexistente do index: <br>
+`const semPosicaoNoIndex = marcasTecnologia.findIndex((item) => item === "NaoExiste");` <br>
+`console.log(semPosicaoNoIndex);` <br>
+Resultado: -1 (Pois não existe nada com este nome no Array); <br>
+
+---------------------------------------
+
+`const marcasDeGrife = ["Gucci", "Prada", "Versaci", "Balanciaga", "Louis Vuitton"];` <br>
+`console.log(marcasDeGrife);` <br>
+
+### Filter:
+
+Filtrando no Array somente os itens possuintes de mais de 10 caractéres <br>
+`const filtermarcasDeGrife = marcasDeGrife.filter((item) => item.length > 10);` <br>
+`console.log("Filtrando Array marcasDeGrife: ", filtermarcasDeGrife);` <br>
+Resultado: (1) Louis Vuitton (Único item no Array que possui mais de 10 caractéres) <br>
+
+Filtrando no Array somente os itens possuintes de mais de 5 caractéres: <br>
+`const filtermarcasDeGrifeDois = marcasDeGrife.filter((item) => item.length > 5);` <br>
+`console.log("Filtrando Array marcasDeGrife 2: ", filtermarcasDeGrifeDois);` <br>
+Resultado: (3) Versaci, Balanciaga, Louis Vuitton (Itens no Array que possuem mais de 5 caractéres) <br>
+
+---------------------------------------
+
+`const avioes = ["Airbus A380", "Boeing 747", "Airbus A340", "Boeing 777", "Antonov"];` <br>
+`console.log(avioes);` <br>
+
+### Splice:
+Utilizando Splice para remover itens do Array: <br>
+`avioes.splice(3);` <br>
+`console.log(avioes);` <br>
+Resultado: (3) Airbus A380, Boeing 747, Airbus A340 <br>
+
